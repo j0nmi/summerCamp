@@ -19,7 +19,6 @@ namespace explicacionHerencia
             // Crear instancia de empleado 
             //aitor.Jefe = jon;
 
-
             Empleado jon = new Empleado("Jon");
             Empleado aitor = new Trabajador("Aitor", "Mañana");
             Empleado jose = new Externo("Jose", new Empresa("Gamesa", 31621));
@@ -41,17 +40,19 @@ namespace explicacionHerencia
                 Console.WriteLine(empleado.ToString());
             }
 
+            Administrador enrique = new Administrador("Enrique", true);
+
             try
             {
-                if (marcos.TieneParking)
+                if (enrique.TienePlazaParking)
                 {
-                    Console.WriteLine(marcos.PlazaParking());
+                    Console.WriteLine(enrique.PlazaParking());
                 }
             }
-            catch (Exception ex)
+            catch (ErrorBaseDatosExcepcion ex)
             {
-                //throw;
+                Console.WriteLine("" + ex.Mensaje + " " + ex.FechaHoraExcepcion);
             }
-        }
-    }
+        } 
+}
 }

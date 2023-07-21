@@ -19,6 +19,7 @@ namespace explicacionHerencia
 
         public string PlazaParking()
         {
+            throw new ErrorBaseDatosExcepcion(" ERROR al conectar a la BBDD!", DateTime.Now);
             // Condición ? valor_si_verdadero : valor_si_falso;
             return TienePlazaParking ? "Plaza 21" : "No tiene plaza";
         }

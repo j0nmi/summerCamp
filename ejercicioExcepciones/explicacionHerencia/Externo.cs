@@ -14,11 +14,12 @@ namespace explicacionHerencia
             this.empresa = empresa;
         }
 
-        //public override string ToString()
-        //{
-        //    return $" Trabajador, Nombre: {Nombre} |" +
-        //        $" Días Vacaciones: {diasVacaciones} |" +
-        //        $" Turno: {Turno}";
-        //}
+        public override string ToString() 
+        { 
+            return $" Externo, Nombre: {Nombre} |" +
+                $" Días Vacaciones: {diasVacaciones} |" +
+                $" Empresa: {empresa.Nombre} |" +
+                $" Codigo Postal: {empresa.CodigoPostal}";
+        }
     }
 }

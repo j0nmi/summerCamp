@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT41.064652S" SolutionTotalViewTime="PT1M9.8919585S" SolutionTotalDebugTime="PT0S">
+  <FileVersion>
+    <Major>1</Major>
+    <Minor>0</Minor>
+  </FileVersion>
+  <SolutionFolder>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\ifDemo</SolutionFolder>
+  <SessionTimeList />
+  <LastSessionTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT41.3695209S" EditActiveTime="PT41.064652S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\ifDemo\ifDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\ifDemo\ifDemo\ifDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:15:23.1008235+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </LastSessionTimeList>
+  <TotalTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT28.5234372S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\ifDemo\ifDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\ifDemo\ifDemo\ifDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T01:35:08.6016834+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT41.3695209S" EditActiveTime="PT41.064652S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\ifDemo\ifDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\ifDemo\ifDemo\ifDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:15:23.1008235+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </TotalTimeList>
+  <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT41.3695209S" EditActiveTime="PT41.064652S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\ifDemo\ifDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\ifDemo\ifDemo\ifDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:15:23.1008235+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT28.5234372S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\ifDemo\ifDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\ifDemo\ifDemo\ifDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T01:35:08.6016834+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </HistoryTimeList>
+</DevTrackerData>

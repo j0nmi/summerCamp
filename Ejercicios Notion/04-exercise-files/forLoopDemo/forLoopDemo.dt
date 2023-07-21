@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT0S" SolutionTotalViewTime="PT15.3495163S" SolutionTotalDebugTime="PT0S">
+  <FileVersion>
+    <Major>1</Major>
+    <Minor>0</Minor>
+  </FileVersion>
+  <SolutionFolder>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\forLoopDemo</SolutionFolder>
+  <SessionTimeList />
+  <LastSessionTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT15.3495163S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\forLoopDemo\forLoopDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\forLoopDemo\forLoopDemo\forLoopDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T01:34:39.8454769+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </LastSessionTimeList>
+  <TotalTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT15.3495163S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\forLoopDemo\forLoopDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\forLoopDemo\forLoopDemo\forLoopDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T01:34:39.8454769+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </TotalTimeList>
+  <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT15.3495163S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\forLoopDemo\forLoopDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\forLoopDemo\forLoopDemo\forLoopDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T01:34:39.8454769+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </HistoryTimeList>
+</DevTrackerData>

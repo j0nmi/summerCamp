@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "staticDemo", "staticDemoPractice\staticDemo.csproj", "{476B28D8-1032-4DF0-9E03-AF6B1C4A6C27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{476B28D8-1032-4DF0-9E03-AF6B1C4A6C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476B28D8-1032-4DF0-9E03-AF6B1C4A6C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476B28D8-1032-4DF0-9E03-AF6B1C4A6C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476B28D8-1032-4DF0-9E03-AF6B1C4A6C27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

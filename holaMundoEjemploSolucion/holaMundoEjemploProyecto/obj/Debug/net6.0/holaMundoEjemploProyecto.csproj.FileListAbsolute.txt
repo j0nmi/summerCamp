@@ -1,0 +1,15 @@
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\obj\Debug\net6.0\holaMundoEjemploProyecto.csproj.AssemblyReference.cache
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\obj\Debug\net6.0\holaMundoEjemploProyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\obj\Debug\net6.0\holaMundoEjemploProyecto.AssemblyInfoInputs.cache
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\obj\Debug\net6.0\holaMundoEjemploProyecto.AssemblyInfo.cs
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\obj\Debug\net6.0\holaMundoEjemploProyecto.csproj.CoreCompileInputs.cache
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\bin\Debug\net6.0\holaMundoEjemploProyecto.exe
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\bin\Debug\net6.0\holaMundoEjemploProyecto.deps.json
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\bin\Debug\net6.0\holaMundoEjemploProyecto.runtimeconfig.json
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\bin\Debug\net6.0\holaMundoEjemploProyecto.dll
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\bin\Debug\net6.0\holaMundoEjemploProyecto.pdb
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\obj\Debug\net6.0\holaMundoEjemploProyecto.dll
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\obj\Debug\net6.0\refint\holaMundoEjemploProyecto.dll
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\obj\Debug\net6.0\holaMundoEjemploProyecto.pdb
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\obj\Debug\net6.0\holaMundoEjemploProyecto.genruntimeconfig.cache
+C:\Curso\holaMundoEjemploSolucion\holaMundoEjemploProyecto\obj\Debug\net6.0\ref\holaMundoEjemploProyecto.dll

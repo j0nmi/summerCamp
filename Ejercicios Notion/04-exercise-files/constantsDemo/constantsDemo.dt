@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT9M41.3782241S" SolutionTotalViewTime="PT4M43.4644322S" SolutionTotalDebugTime="PT0S">
+  <FileVersion>
+    <Major>1</Major>
+    <Minor>0</Minor>
+  </FileVersion>
+  <SolutionFolder>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo</SolutionFolder>
+  <SessionTimeList />
+  <LastSessionTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT53.5718732S" EditActiveTime="PT1M30.283052S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\constantsDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:27:00.9849698+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT45.9585161S" EditActiveTime="PT1M51.7138084S">
+      <ModifiedDate>2018-10-08T13:34:53.9640846+02:00</ModifiedDate>
+      <ModifiedBy>hispa</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\TestEdades\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\constantsDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:30:16.1641351+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M37.9781086S" EditActiveTime="PT6M19.3793636S">
+      <ModifiedDate>2018-10-08T13:38:20.8188888+02:00</ModifiedDate>
+      <ModifiedBy>hispa</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\constantsDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:23:24.3058624+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </LastSessionTimeList>
+  <TotalTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT53.5718732S" EditActiveTime="PT1M30.283052S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\constantsDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:27:00.9849698+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT45.9585161S" EditActiveTime="PT1M51.7138084S">
+      <ModifiedDate>2018-10-08T13:34:53.9640846+02:00</ModifiedDate>
+      <ModifiedBy>hispa</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\TestEdades\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\constantsDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:30:16.1641351+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT25.9559343S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\constantsDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T01:34:05.1649517+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M37.9781086S" EditActiveTime="PT6M19.3793636S">
+      <ModifiedDate>2018-10-08T13:38:20.8188888+02:00</ModifiedDate>
+      <ModifiedBy>hispa</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\constantsDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:23:24.3058624+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </TotalTimeList>
+  <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT45.9585161S" EditActiveTime="PT1M51.7138084S">
+      <ModifiedDate>2018-10-08T13:34:53.9640846+02:00</ModifiedDate>
+      <ModifiedBy>hispa</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\TestEdades\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\constantsDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:30:16.1641351+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT53.5718732S" EditActiveTime="PT1M30.283052S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\Class1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\constantsDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:27:00.9849698+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M37.9781086S" EditActiveTime="PT6M19.3793636S">
+      <ModifiedDate>2018-10-08T13:38:20.8188888+02:00</ModifiedDate>
+      <ModifiedBy>hispa</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\constantsDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:23:24.3058624+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT25.9559343S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\constantsDemo\constantsDemo\constantsDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T01:34:05.1649517+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </HistoryTimeList>
+</DevTrackerData>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicioCrearVehiculos", "ejercicioCrearVehiculos\ejercicioCrearVehiculos.csproj", "{65856A21-97D0-4AE4-9DD1-7A489FF1BDE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{2D248D0B-238D-42BE-9BA7-78C1DDD992D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65856A21-97D0-4AE4-9DD1-7A489FF1BDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65856A21-97D0-4AE4-9DD1-7A489FF1BDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65856A21-97D0-4AE4-9DD1-7A489FF1BDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65856A21-97D0-4AE4-9DD1-7A489FF1BDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D248D0B-238D-42BE-9BA7-78C1DDD992D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D248D0B-238D-42BE-9BA7-78C1DDD992D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D248D0B-238D-42BE-9BA7-78C1DDD992D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D248D0B-238D-42BE-9BA7-78C1DDD992D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22E1DB62-72FD-4ABE-96FB-269E731E127B}
+	EndGlobalSection
+EndGlobal

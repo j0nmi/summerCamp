@@ -1,0 +1,8 @@
+C:\Curso\Ejercicios Notion\06-exercise-files\staticDemo\staticDemoPractice\bin\Debug\staticDemoPractice.exe.config
+C:\Curso\Ejercicios Notion\06-exercise-files\staticDemo\staticDemoPractice\bin\Debug\staticDemoPractice.exe
+C:\Curso\Ejercicios Notion\06-exercise-files\staticDemo\staticDemoPractice\bin\Debug\staticDemoPractice.pdb
+C:\Curso\Ejercicios Notion\06-exercise-files\staticDemo\staticDemoPractice\obj\Debug\staticDemo.csproj.AssemblyReference.cache
+C:\Curso\Ejercicios Notion\06-exercise-files\staticDemo\staticDemoPractice\obj\Debug\staticDemo.csproj.SuggestedBindingRedirects.cache
+C:\Curso\Ejercicios Notion\06-exercise-files\staticDemo\staticDemoPractice\obj\Debug\staticDemo.csproj.CoreCompileInputs.cache
+C:\Curso\Ejercicios Notion\06-exercise-files\staticDemo\staticDemoPractice\obj\Debug\staticDemoPractice.exe
+C:\Curso\Ejercicios Notion\06-exercise-files\staticDemo\staticDemoPractice\obj\Debug\staticDemoPractice.pdb

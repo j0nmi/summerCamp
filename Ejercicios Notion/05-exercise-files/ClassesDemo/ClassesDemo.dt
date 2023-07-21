@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT6M0.7233151S" SolutionTotalViewTime="PT1M6.3472374S" SolutionTotalDebugTime="PT0S">
+  <FileVersion>
+    <Major>1</Major>
+    <Minor>0</Minor>
+  </FileVersion>
+  <SolutionFolder>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\05-exercise-files\ClassesDemo</SolutionFolder>
+  <SessionTimeList />
+  <LastSessionTimeList />
+  <TotalTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT1M6.3472374S" EditActiveTime="PT6M0.7233151S">
+      <ModifiedDate>2018-10-04T20:19:57.485398+02:00</ModifiedDate>
+      <ModifiedBy>hispa</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\05-exercise-files\ClassesDemo\ClassesDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\05-exercise-files\ClassesDemo\ClassesDemo\ClassesDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-04T20:11:32.5892337+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </TotalTimeList>
+  <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT56.7758833S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\05-exercise-files\ClassesDemo\ClassesDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\05-exercise-files\ClassesDemo\ClassesDemo\ClassesDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T01:39:20.2018897+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT9.5723567S" EditActiveTime="PT6M0.7233151S">
+      <ModifiedDate>2018-10-04T20:19:57.485398+02:00</ModifiedDate>
+      <ModifiedBy>hispa</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\05-exercise-files\ClassesDemo\ClassesDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\05-exercise-files\ClassesDemo\ClassesDemo\ClassesDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-04T20:11:32.5892337+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </HistoryTimeList>
+</DevTrackerData>

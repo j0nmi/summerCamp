@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT5M47.5800435S" SolutionTotalViewTime="PT1M39.4064879S" SolutionTotalDebugTime="PT0S">
+  <FileVersion>
+    <Major>1</Major>
+    <Minor>0</Minor>
+  </FileVersion>
+  <SolutionFolder>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\switchDemo</SolutionFolder>
+  <SessionTimeList />
+  <LastSessionTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT56.6019957S" EditActiveTime="PT5M47.5810431S">
+      <ModifiedDate>2018-10-08T13:44:49.0038076+02:00</ModifiedDate>
+      <ModifiedBy>hispa</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\switchDemo\switchDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\switchDemo\switchDemo\switchDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:38:30.4879284+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </LastSessionTimeList>
+  <TotalTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT42.8034926S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\switchDemo\switchDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\switchDemo\switchDemo\switchDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T01:36:12.9729043+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT56.6019957S" EditActiveTime="PT5M47.5810431S">
+      <ModifiedDate>2018-10-08T13:44:49.0038076+02:00</ModifiedDate>
+      <ModifiedBy>hispa</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\switchDemo\switchDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\switchDemo\switchDemo\switchDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:38:30.4879284+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </TotalTimeList>
+  <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT56.6019957S" EditActiveTime="PT5M47.5810431S">
+      <ModifiedDate>2018-10-08T13:44:49.0038076+02:00</ModifiedDate>
+      <ModifiedBy>hispa</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\switchDemo\switchDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Curso\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\switchDemo\switchDemo\switchDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T13:38:30.4879284+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT42.8034926S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\switchDemo\switchDemo\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\hispa\Dropbox\Proyectos\Curso .Net Desfufor\C#-Net-Net_Core\Beginner\C# 6 from Scratch\csharp-6-from-scratch\04-exercise-files\switchDemo\switchDemo\switchDemo.csproj</ProjectName>
+      <CreatedDate>2018-10-08T01:36:12.9729043+02:00</CreatedDate>
+      <ViewedBy>hispa</ViewedBy>
+    </DevTrackerDataItem>
+  </HistoryTimeList>
+</DevTrackerData>

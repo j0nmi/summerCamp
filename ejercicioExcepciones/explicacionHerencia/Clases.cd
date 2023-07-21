@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="explicacionHerencia.Empleado">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAEAQAAgAAAQAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Parciales\Empleado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="explicacionHerencia.Trabajador">
+    <Position X="8.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAEAQAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Trabajador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="explicacionHerencia.Administrador">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Administrador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="explicacionHerencia.Empresa">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Empresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="explicacionHerencia.Externo">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Externo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

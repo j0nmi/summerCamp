@@ -1,0 +1,15 @@
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\bin\Debug\net6.0\ejercicioCambioDivisas.exe
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\bin\Debug\net6.0\ejercicioCambioDivisas.deps.json
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\bin\Debug\net6.0\ejercicioCambioDivisas.runtimeconfig.json
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\bin\Debug\net6.0\ejercicioCambioDivisas.dll
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\bin\Debug\net6.0\ejercicioCambioDivisas.pdb
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\obj\Debug\net6.0\ejercicioCambioDivisas.csproj.AssemblyReference.cache
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\obj\Debug\net6.0\ejercicioCambioDivisas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\obj\Debug\net6.0\ejercicioCambioDivisas.AssemblyInfoInputs.cache
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\obj\Debug\net6.0\ejercicioCambioDivisas.AssemblyInfo.cs
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\obj\Debug\net6.0\ejercicioCambioDivisas.csproj.CoreCompileInputs.cache
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\obj\Debug\net6.0\ejercicioCambioDivisas.dll
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\obj\Debug\net6.0\refint\ejercicioCambioDivisas.dll
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\obj\Debug\net6.0\ejercicioCambioDivisas.pdb
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\obj\Debug\net6.0\ejercicioCambioDivisas.genruntimeconfig.cache
+C:\Curso\ejercicioCambioDivisas\ejercicioCambioDivisas\obj\Debug\net6.0\ref\ejercicioCambioDivisas.dll

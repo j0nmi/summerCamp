@@ -1,0 +1,15 @@
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\bin\Debug\net6.0\EjemploDelegados.exe
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\bin\Debug\net6.0\EjemploDelegados.deps.json
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\bin\Debug\net6.0\EjemploDelegados.runtimeconfig.json
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\bin\Debug\net6.0\EjemploDelegados.dll
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\bin\Debug\net6.0\EjemploDelegados.pdb
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\obj\Debug\net6.0\EjemploDelegados.csproj.AssemblyReference.cache
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\obj\Debug\net6.0\EjemploDelegados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\obj\Debug\net6.0\EjemploDelegados.AssemblyInfoInputs.cache
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\obj\Debug\net6.0\EjemploDelegados.AssemblyInfo.cs
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\obj\Debug\net6.0\EjemploDelegados.csproj.CoreCompileInputs.cache
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\obj\Debug\net6.0\EjemploDelegados.dll
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\obj\Debug\net6.0\refint\EjemploDelegados.dll
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\obj\Debug\net6.0\EjemploDelegados.pdb
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\obj\Debug\net6.0\EjemploDelegados.genruntimeconfig.cache
+C:\Curso\ejerciciosClase\EjemploDelegadosEventosLINQ\EjemploDelegados\obj\Debug\net6.0\ref\EjemploDelegados.dll

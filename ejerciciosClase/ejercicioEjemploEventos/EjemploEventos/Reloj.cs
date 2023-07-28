@@ -15,14 +15,14 @@
         public void IniciarReloj()
         {
             DateTime fechaHoraActual;
-            // Bucle infinito. Otra opción: while (true) { };
+            // Bucle infinito. Otra opción: do {} while (true);
             for (; ; )
             {
                 Thread.Sleep(100);
                 fechaHoraActual = DateTime.Now;
                 if (fechaHoraActual.Second != segundo)
                     // No debe mostrar nada, pero así vemos qué hace
-                    Console.WriteLine(segundo);
+                    // Console.WriteLine(segundo);
                 {
                     // Guardar info tiempo
                     var informacionTiempo = new InformacionTiempoEventArgs(fechaHoraActual.Hour, fechaHoraActual.Minute, fechaHoraActual.Second);

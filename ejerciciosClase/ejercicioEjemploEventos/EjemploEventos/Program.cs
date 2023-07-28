@@ -2,6 +2,9 @@
 {
     internal class Program
     {
+        // Crear delegado
+        // Crear evento
+        // Crear método
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");

@@ -20,7 +20,9 @@
             {
                 Thread.Sleep(100);
                 fechaHoraActual = DateTime.Now;
-                if ( fechaHoraActual.Second != segundo )
+                if (fechaHoraActual.Second != segundo)
+                    // No debe mostrar nada, pero así vemos qué hace
+                    Console.WriteLine(segundo);
                 {
                     // Guardar info tiempo
                     var informacionTiempo = new InformacionTiempoEventArgs(fechaHoraActual.Hour, fechaHoraActual.Minute, fechaHoraActual.Second);

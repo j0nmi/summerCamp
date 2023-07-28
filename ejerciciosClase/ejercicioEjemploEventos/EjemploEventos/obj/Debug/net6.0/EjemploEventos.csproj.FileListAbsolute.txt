@@ -1,0 +1,15 @@
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\bin\Debug\net6.0\EjemploEventos.exe
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\bin\Debug\net6.0\EjemploEventos.deps.json
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\bin\Debug\net6.0\EjemploEventos.runtimeconfig.json
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\bin\Debug\net6.0\EjemploEventos.dll
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\bin\Debug\net6.0\EjemploEventos.pdb
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\obj\Debug\net6.0\EjemploEventos.csproj.AssemblyReference.cache
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\obj\Debug\net6.0\EjemploEventos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\obj\Debug\net6.0\EjemploEventos.AssemblyInfoInputs.cache
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\obj\Debug\net6.0\EjemploEventos.AssemblyInfo.cs
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\obj\Debug\net6.0\EjemploEventos.csproj.CoreCompileInputs.cache
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\obj\Debug\net6.0\EjemploEventos.dll
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\obj\Debug\net6.0\refint\EjemploEventos.dll
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\obj\Debug\net6.0\EjemploEventos.pdb
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\obj\Debug\net6.0\EjemploEventos.genruntimeconfig.cache
+C:\Curso\ejerciciosClase\ejercicioEjemploEventos\EjemploEventos\obj\Debug\net6.0\ref\EjemploEventos.dll

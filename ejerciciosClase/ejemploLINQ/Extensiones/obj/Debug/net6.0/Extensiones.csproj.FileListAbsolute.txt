@@ -1,0 +1,12 @@
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\bin\Debug\net6.0\Extensiones.deps.json
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\bin\Debug\net6.0\Extensiones.dll
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\bin\Debug\net6.0\Extensiones.pdb
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\obj\Debug\net6.0\Extensiones.csproj.AssemblyReference.cache
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\obj\Debug\net6.0\Extensiones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\obj\Debug\net6.0\Extensiones.AssemblyInfoInputs.cache
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\obj\Debug\net6.0\Extensiones.AssemblyInfo.cs
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\obj\Debug\net6.0\Extensiones.csproj.CoreCompileInputs.cache
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\obj\Debug\net6.0\Extensiones.dll
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\obj\Debug\net6.0\refint\Extensiones.dll
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\obj\Debug\net6.0\Extensiones.pdb
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\Extensiones\obj\Debug\net6.0\ref\Extensiones.dll

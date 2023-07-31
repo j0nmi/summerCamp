@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EjemploMetodosExtension/1.0.0": {
+        "dependencies": {
+          "Extensiones": "1.0.0"
+        },
+        "runtime": {
+          "EjemploMetodosExtension.dll": {}
+        }
+      },
+      "Extensiones/1.0.0": {
+        "runtime": {
+          "Extensiones.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EjemploMetodosExtension/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Extensiones/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

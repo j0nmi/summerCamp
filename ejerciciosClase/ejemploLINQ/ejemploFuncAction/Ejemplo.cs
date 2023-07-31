@@ -46,7 +46,13 @@ namespace ejemploFuncAction
             // 3 int: return de la expresión lambda
             // Recibe 2 parametros de tipo entero (a,b)
             // Devuelve la suma de los dos parámetros
-            Console.WriteLine(sumar(10,20));
+            Console.WriteLine($"La suma de los dos numeros es: " + sumar(10,20));
+
+            // Expresión lambda para calcular el área de un rectángulo.
+            // BASE X ALTURA.
+            // La expresión lambda que crearemos tomará dos parámetros (base y altura) y devolverá el área del rectángulo.
+            Func<double, double, double> areaRectangulo = (a, b) => { var area = a * b; return area; };
+            Console.WriteLine($"El area del rectangulo es: " + areaRectangulo(10,20));
         }
 
 

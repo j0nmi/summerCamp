@@ -16,9 +16,15 @@ namespace ejemploFuncAction
             // Llamar a TestAction escribiendo la expresión lambda como parámetro
             TestAction((x) => 
             { 
+                // Hace referencia a: Action<int> accion
                 Console.WriteLine($"En el parámetro Acción {x}");
             }
             , 2);
+
+            // 1-. Crear una variable que almacene la accion
+            // 2-. Llamar a testaction pasándole la variable y el valor 3
+            Action<int> accion = (y) => { Console.WriteLine($"En el parámetro Acción {y}"); };
+            TestAction(accion, 3);
         }
 
         // Metodo que recibe un Action de tipo int y un int

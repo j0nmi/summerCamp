@@ -1,0 +1,15 @@
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\obj\Debug\net6.0\ejemploFuncAction.csproj.AssemblyReference.cache
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\obj\Debug\net6.0\ejemploFuncAction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\obj\Debug\net6.0\ejemploFuncAction.AssemblyInfoInputs.cache
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\obj\Debug\net6.0\ejemploFuncAction.AssemblyInfo.cs
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\obj\Debug\net6.0\ejemploFuncAction.csproj.CoreCompileInputs.cache
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\bin\Debug\net6.0\ejemploFuncAction.exe
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\bin\Debug\net6.0\ejemploFuncAction.deps.json
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\bin\Debug\net6.0\ejemploFuncAction.runtimeconfig.json
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\bin\Debug\net6.0\ejemploFuncAction.dll
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\bin\Debug\net6.0\ejemploFuncAction.pdb
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\obj\Debug\net6.0\ejemploFuncAction.dll
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\obj\Debug\net6.0\refint\ejemploFuncAction.dll
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\obj\Debug\net6.0\ejemploFuncAction.pdb
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\obj\Debug\net6.0\ejemploFuncAction.genruntimeconfig.cache
+C:\Curso\summercamp\ejerciciosClase\ejemploLINQ\ejemploFuncAction\obj\Debug\net6.0\ref\ejemploFuncAction.dll

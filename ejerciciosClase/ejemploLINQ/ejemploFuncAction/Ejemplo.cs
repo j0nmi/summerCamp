@@ -8,7 +8,32 @@ namespace ejemploFuncAction
 {
     internal class Ejemplo
     {
-        internal void EjemploDelegados1()
+        internal void EjemploAction()
+        {
+            // Llamamos a TestAction pasándole el método Acción
+            TestAction(Accion, 1);
+
+            // Llamar a TestAction escribiendo la expresión lambda como parámetro
+            TestAction((x) => 
+            { 
+                Console.WriteLine($"En el parámetro Acción {x}");
+            }
+            , 2);
+        }
+
+        // Metodo que recibe un Action de tipo int y un int
+        // Dentro ha de llamar al Action pasado como parámetro
+        public void TestAction(Action<int> accion, int numero)
+        {
+            accion.Invoke(numero);
+        }
+
+        public void Accion(int numero)
+        {
+            Console.WriteLine($"El método de Acción {numero}");
+        }
+
+        internal void EjemploFunc()
         {
             // Expresión Lambda mediante Func<>
             Func<string> holaMundoExpresion =
@@ -46,13 +71,13 @@ namespace ejemploFuncAction
             // 3 int: return de la expresión lambda
             // Recibe 2 parametros de tipo entero (a,b)
             // Devuelve la suma de los dos parámetros
-            Console.WriteLine($"La suma de los dos numeros es: " + sumar(10,20));
+            Console.WriteLine($"La suma de los dos números es: " + sumar(10,20));
 
             // Expresión lambda para calcular el área de un rectángulo.
             // BASE X ALTURA.
             // La expresión lambda que crearemos tomará dos parámetros (base y altura) y devolverá el área del rectángulo.
             Func<double, double, double> areaRectangulo = (a, b) => { var area = a * b; return area; };
-            Console.WriteLine($"El area del rectangulo es: " + areaRectangulo(10,20));
+            Console.WriteLine($"El área del rectángulo es: " + areaRectangulo(10,20));
         }
 
 

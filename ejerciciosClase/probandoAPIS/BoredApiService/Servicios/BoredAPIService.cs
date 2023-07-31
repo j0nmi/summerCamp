@@ -14,7 +14,6 @@ namespace BoredApiService
             public string Type { get; set; }
             public int Participants { get; set; }
             public double Price { get; set; }
-            public string Link { get; set; }
             public string Key { get; set; }
             public double Accessibility { get; set; }
         }
@@ -36,12 +35,12 @@ namespace BoredApiService
             var content = await response.Content.ReadAsStringAsync();
             var actividad = JsonConvert.DeserializeObject<BoredApiResponse>(content);
 
-            Console.WriteLine($"ACTIVIDAD: {actividad.Activity}");
-            Console.WriteLine($"TIPO: {actividad.Type}");
-            Console.WriteLine($"PARTICIPANTES: {actividad.Participants}");
-            Console.WriteLine($"ENLACE: {actividad.Link}");
-            Console.WriteLine($"PRICE: {actividad.Price}");
-            Console.WriteLine($"KEY: {actividad.Key}");
+            Console.WriteLine($" \n ACTIVIDAD (boredapi.com)\n");
+            Console.WriteLine($" ACTIVIDAD: {actividad.Activity}");
+            Console.WriteLine($" TIPO: {actividad.Type}");
+            Console.WriteLine($" PARTICIPANTES: {actividad.Participants}");
+            Console.WriteLine($" PRICE: {actividad.Price}");
+            Console.WriteLine($" ACCESIBILIDAD: {actividad.Accessibility}");
         }
     }
 }

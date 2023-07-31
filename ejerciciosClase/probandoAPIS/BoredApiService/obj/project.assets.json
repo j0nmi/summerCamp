@@ -55,19 +55,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pmpcurso1\\.nuget\\packages\\": {}
+    "C:\\Users\\Jon\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Curso\\summercamp\\ejerciciosClase\\probandoAPIS\\BoredApiService\\BoredApiService.csproj",
+      "projectUniqueName": "C:\\Users\\Jon\\Desktop\\Tracasa\\summerCamp\\ejerciciosClase\\probandoAPIS\\BoredApiService\\BoredApiService.csproj",
       "projectName": "BoredApiService",
-      "projectPath": "C:\\Curso\\summercamp\\ejerciciosClase\\probandoAPIS\\BoredApiService\\BoredApiService.csproj",
-      "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-      "outputPath": "C:\\Curso\\summercamp\\ejerciciosClase\\probandoAPIS\\BoredApiService\\obj\\",
+      "projectPath": "C:\\Users\\Jon\\Desktop\\Tracasa\\summerCamp\\ejerciciosClase\\probandoAPIS\\BoredApiService\\BoredApiService.csproj",
+      "packagesPath": "C:\\Users\\Jon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jon\\Desktop\\Tracasa\\summerCamp\\ejerciciosClase\\probandoAPIS\\BoredApiService\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -75,6 +80,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -1,0 +1,17 @@
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\obj\Debug\net6.0\BoredApiService.csproj.AssemblyReference.cache
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\obj\Debug\net6.0\BoredApiService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\obj\Debug\net6.0\BoredApiService.AssemblyInfoInputs.cache
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\obj\Debug\net6.0\BoredApiService.AssemblyInfo.cs
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\obj\Debug\net6.0\BoredApiService.csproj.CoreCompileInputs.cache
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\bin\Debug\net6.0\BoredApiService.exe
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\bin\Debug\net6.0\BoredApiService.deps.json
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\bin\Debug\net6.0\BoredApiService.runtimeconfig.json
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\bin\Debug\net6.0\BoredApiService.dll
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\bin\Debug\net6.0\BoredApiService.pdb
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\obj\Debug\net6.0\BoredApiService.csproj.CopyComplete
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\obj\Debug\net6.0\BoredApiService.dll
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\obj\Debug\net6.0\refint\BoredApiService.dll
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\obj\Debug\net6.0\BoredApiService.pdb
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\obj\Debug\net6.0\BoredApiService.genruntimeconfig.cache
+C:\Curso\summercamp\ejerciciosClase\probandoAPIS\BoredApiService\obj\Debug\net6.0\ref\BoredApiService.dll

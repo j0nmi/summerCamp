@@ -11,20 +11,29 @@ namespace ejemploFuncAction
         internal void EjemploAction()
         {
             // Llamamos a TestAction pasándole el método Acción
-            TestAction(Accion, 1);
+            TestAction(AccionMetodo, 1);
 
             // Llamar a TestAction escribiendo la expresión lambda como parámetro
             TestAction((x) => 
             { 
                 // Hace referencia a: Action<int> accion
                 Console.WriteLine($"En el parámetro Acción {x}");
-            }
-            , 2);
+            }, 2);
 
             // 1-. Crear una variable que almacene la accion
             // 2-. Llamar a testaction pasándole la variable y el valor 3
             Action<int> accion = (y) => { Console.WriteLine($"En el parámetro Acción {y}"); };
             TestAction(accion, 3);
+
+            // Lista de acciones
+            List<Action<int>> listaAcciones = new List<Action<int>>();
+            listaAcciones.Add( accion );
+            listaAcciones.Add(AccionMetodo);
+
+            foreach (var elementoAccion in listaAcciones)
+            {
+                elementoAccion(1);
+            }
         }
 
         // Metodo que recibe un Action de tipo int y un int
@@ -34,7 +43,7 @@ namespace ejemploFuncAction
             accion.Invoke(numero);
         }
 
-        public void Accion(int numero)
+        public void AccionMetodo(int numero)
         {
             Console.WriteLine($"El método de Acción {numero}");
         }

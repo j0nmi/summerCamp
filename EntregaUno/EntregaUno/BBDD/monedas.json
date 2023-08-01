@@ -13,5 +13,10 @@
     "nombre": "Libra esterlina",
     "codigo": "GBP",
     "valorEnDolares": 1.39
+  },
+  {
+    "nombre": "Dolar Equipo",
+    "codigo": "USDE",
+    "valorEnDolares": 1.98
   }
 ]

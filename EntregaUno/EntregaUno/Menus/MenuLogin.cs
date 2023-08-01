@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Text.RegularExpressions;
 
 namespace EntregaUno.Menus
 {
@@ -10,14 +10,12 @@ namespace EntregaUno.Menus
 
             string Nombre = "Juan";
             string Email = "ejemplo@gmail.com";
-            string Contrasena = "123456";
+            string Password = "123456";
 
             bool Continuar = false;
 
             while (!Continuar)
             {
-
-
                 Console.WriteLine($"\n\t SISTEMA DE LOGIN\n");
                 Console.WriteLine("\t 1-. Iniciar sesión");
                 Console.WriteLine("\t 2-. Salir");
@@ -34,24 +32,35 @@ namespace EntregaUno.Menus
                 {
                     case 1:
                         Console.Write("\t Ingrese usuario o correo electronico: ");
-                        string Usuario = Console.ReadLine();
-                        Console.Write("\t Introduce tu contraseña: ");
-                        string Password = Console.ReadLine();
+                        string UsuarioCorreo = Console.ReadLine();
 
-                        if ((Usuario.ToUpper() == Nombre.ToUpper() || Usuario.ToUpper() == Email.ToUpper()) && Password == Contrasena)
+
+                        if (UsuarioCorreo == Nombre || EsCorreoValido(UsuarioCorreo))
                         {
-                            Continuar = true;
+                            // Pedir al usuario que ingrese la contraseña
+                            Console.Write("\t Introduce la contraseña: ");
+                            string contrasena = Console.ReadLine();
 
-                            Nombre = Usuario;
-                            Contrasena = Password;
-                            Console.WriteLine("\t Inicio de sesión exitoso.");
+                            // Realizar la validación del inicio de sesión
+                            if (ValidarCredenciales(UsuarioCorreo, contrasena, Nombre, Email, Password))
+                            {
+                                Console.WriteLine($"Inicio de sesión exitoso. ¡Bienvenido! {Nombre}");
+                                Console.WriteLine("\n\t Presione cualquier tecla para continuar...");
+                                Console.ReadKey();
+                                Console.Clear();
+                                MenuRegistro.mostrarMenuRegistro();
+                            }
+                            else
+                            {
+                                Console.WriteLine("Correo electrónico o contraseña incorrectos. Inténtalo nuevamente.");
+                            }
                         }
                         else
                         {
-                            Console.WriteLine("\t Credenciales incorrectas. Intente nuevamente.");
+                            Console.WriteLine("El formato del correo electrónico o usuarion no es válido. Inténtalo nuevamente.");
                         }
                         break;
-
+                        Console.Clear();
 
 
                     case 2:
@@ -63,14 +72,31 @@ namespace EntregaUno.Menus
                     default:
                         Console.WriteLine("\t Opción no válida. Intente nuevamente.");
                         break;
+                        Console.Clear();
                 }
             }
 
             // Se puede crear una opcion de recuperar contraseña 
 
-            Console.WriteLine($"\t Bienvenido, {Nombre}!");
+
         }
 
+        public static bool ValidarCredenciales(string UsuarioCorreo, string contrasena, string Nombre, string Email, string Password)
+        {
+            return UsuarioCorreo == Nombre || UsuarioCorreo == Email && contrasena == Password;
+        }
+
+        public static bool EsCorreoValido(string correo)
+        {
+            // Expresión regular para validar el formato del correo electrónico
+            string patron = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+
+            // Crear un objeto Regex con el patrón
+            Regex regex = new Regex(patron);
+
+            // Comprobar si el correo coincide con el patrón
+            return regex.IsMatch(correo);
+        }
 
     }
 }

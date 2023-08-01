@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace EntregaUno.Menus
+﻿namespace EntregaUno.Menus
 {
     public class MenuPrincipal
     {
@@ -42,6 +40,7 @@ namespace EntregaUno.Menus
                     case "5":
                         Console.WriteLine("\n\t Presione cualquier tecla para salir...");
                         Console.ReadKey();
+                        Environment.Exit(0);
                         break;
                     default:
                         Console.Clear();

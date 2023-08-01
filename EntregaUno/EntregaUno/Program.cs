@@ -8,6 +8,5 @@ namespace EntregaUno
         {
             MenuPrincipal.mostrarMenuPrincipal();
         }
-      
     }
 }

@@ -1,18 +1,30 @@
 [
-    {
-        "codigo": 1,
-        "monedaOrigen": "USD",
-        "monedaDestino": "EUR",
-        "factor": 0.21,
-        "cantidad": 1000,
-        "fechaConversion": "01/08/2023" 
-    },
-    {
-        "codigo": 2,
-        "monedaOrigen": "EUR",
-        "monedaDestino": "USD",
-        "factor": 0.11,
-        "cantidad": 2000,
-        "fechaConversion": "01/08/2023" 
-    }
+  {
+    "Cantidad": 100.0,
+    "MonedaOrigen": "USD",
+    "MonedaDestino": "EUR",
+    "ResultadoConversion": 89.50,
+    "FechaConversion": "01/08/2023 12:30:45"
+  },
+  {
+    "Cantidad": 50.0,
+    "MonedaOrigen": "EUR",
+    "MonedaDestino": "GBP",
+    "ResultadoConversion": 42.80,
+    "FechaConversion": "01/08/2023 13:15:20"
+  },
+  {
+    "Cantidad": 2000.0,
+    "MonedaOrigen": "JPY",
+    "MonedaDestino": "USD",
+    "ResultadoConversion": 18.50,
+    "FechaConversion": "01/08/2023 15:00:10"
+  },
+  {
+    "Cantidad": 1000.0,
+    "MonedaOrigen": "EUR",
+    "MonedaDestino": "USD",
+    "ResultadoConversion": 0.0,
+    "FechaConversion": "01/08/2023 23:16:21"
+  }
 ]

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace EntregaUno.Menus
 {
@@ -86,6 +84,8 @@ namespace EntregaUno.Menus
                         Console.ReadKey();
                         Console.Clear();
                         break;
+
+
 
                     case "3":
                         // Salir al menu principal

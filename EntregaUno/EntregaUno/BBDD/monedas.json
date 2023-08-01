@@ -16,7 +16,12 @@
   },
   {
     "nombre": "Dolar Equipo",
-    "codigo": "USDE",
-    "valorEnDolares": 1.98
+    "codigo": "USE",
+    "valorEnDolares": 1.27
+  },
+  {
+    "nombre": "Dolar Prueba",
+    "codigo": "USP",
+    "valorEnDolares": 1.19
   }
 ]

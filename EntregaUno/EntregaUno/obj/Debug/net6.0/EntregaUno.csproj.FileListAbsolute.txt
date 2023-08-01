@@ -1,0 +1,17 @@
+C:\Curso\summercamp\EntregaUno\EntregaUno\bin\Debug\net6.0\EntregaUno.exe
+C:\Curso\summercamp\EntregaUno\EntregaUno\bin\Debug\net6.0\EntregaUno.deps.json
+C:\Curso\summercamp\EntregaUno\EntregaUno\bin\Debug\net6.0\EntregaUno.runtimeconfig.json
+C:\Curso\summercamp\EntregaUno\EntregaUno\bin\Debug\net6.0\EntregaUno.dll
+C:\Curso\summercamp\EntregaUno\EntregaUno\bin\Debug\net6.0\EntregaUno.pdb
+C:\Curso\summercamp\EntregaUno\EntregaUno\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Curso\summercamp\EntregaUno\EntregaUno\obj\Debug\net6.0\EntregaUno.csproj.AssemblyReference.cache
+C:\Curso\summercamp\EntregaUno\EntregaUno\obj\Debug\net6.0\EntregaUno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\summercamp\EntregaUno\EntregaUno\obj\Debug\net6.0\EntregaUno.AssemblyInfoInputs.cache
+C:\Curso\summercamp\EntregaUno\EntregaUno\obj\Debug\net6.0\EntregaUno.AssemblyInfo.cs
+C:\Curso\summercamp\EntregaUno\EntregaUno\obj\Debug\net6.0\EntregaUno.csproj.CoreCompileInputs.cache
+C:\Curso\summercamp\EntregaUno\EntregaUno\obj\Debug\net6.0\EntregaUno.csproj.CopyComplete
+C:\Curso\summercamp\EntregaUno\EntregaUno\obj\Debug\net6.0\EntregaUno.dll
+C:\Curso\summercamp\EntregaUno\EntregaUno\obj\Debug\net6.0\refint\EntregaUno.dll
+C:\Curso\summercamp\EntregaUno\EntregaUno\obj\Debug\net6.0\EntregaUno.pdb
+C:\Curso\summercamp\EntregaUno\EntregaUno\obj\Debug\net6.0\EntregaUno.genruntimeconfig.cache
+C:\Curso\summercamp\EntregaUno\EntregaUno\obj\Debug\net6.0\ref\EntregaUno.dll

@@ -10,6 +10,9 @@ namespace EntregaUno.Menus
 {
     public class MenuMonedas
     {
+        // Ruta del fichero JSON.
+        private const string rutaJson = @"..\..\..\BBDD\monedas.json";
+
         public static void mostrarMenuMonedas()
         {
             string opcion = string.Empty;
@@ -70,9 +73,6 @@ namespace EntregaUno.Menus
                 static void ListarMonedas()
                 {
 
-                    // Ruta del fichero .json
-                    string rutaJson = "..\\..\\..\\BBDD\\monedas.json";
-
                     // Guarda el contenido de monedas.json en la variable json
                     string json = File.ReadAllText(rutaJson);
 
@@ -106,8 +106,6 @@ namespace EntregaUno.Menus
                         valorEnDolares = valorEnDolaresNuevaMoneda
                     };
 
-                    string rutaJson = "..\\..\\..\\BBDD\\monedas.json";
-
                     string json = File.ReadAllText(rutaJson);
                     List<Monedas> listaMonedas = JsonConvert.DeserializeObject<List<Monedas>>(json);
 
@@ -123,10 +121,9 @@ namespace EntregaUno.Menus
 
                 static void EditarMoneda()
                 {
-                    Console.Write($"\t Ingrese el código de la moneda que desea editar: ");
+                    ListarMonedas()
+                    Console.Write($"\n\t Ingrese el código de la moneda que desea editar: ");
                     string codigoMoneda = Console.ReadLine().ToUpper();
-
-                    string rutaJson = "..\\..\\..\\BBDD\\monedas.json";
 
                     string json = File.ReadAllText(rutaJson);
                     List<Monedas> listaMonedas = JsonConvert.DeserializeObject<List<Monedas>>(json);
@@ -165,19 +162,11 @@ namespace EntregaUno.Menus
                     ListarMonedas();
                     Console.Write($"\n\t Ingrese el código de la moneda que desea eliminar: ");
                     string codigoMoneda = Console.ReadLine().ToUpper();
-                    string rutaJson = "..\\..\\..\\BBDD\\monedas.json";
                     string json = File.ReadAllText(rutaJson);
                     List<Monedas> listaMonedas = JsonConvert.DeserializeObject<List<Monedas>>(json);
 
-                    Monedas monedaSeleccionada = null;
-                    foreach (Monedas moneda in listaMonedas)
-                    {
-                        if (moneda.codigo.ToUpper() == codigoMoneda)
-                        {
-                            monedaSeleccionada = moneda;
-                            break;
-                        }
-                    }
+                    // Buscamos la moneda por su código mediante una expresión lambda
+                    Monedas monedaSeleccionada = listaMonedas.Find(moneda => moneda.codigo.ToUpper() == codigoMoneda);
 
                     if (monedaSeleccionada == null)
                     {

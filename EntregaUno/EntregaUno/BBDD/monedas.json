@@ -7,12 +7,7 @@
   {
     "nombre": "Euro",
     "codigo": "EUR",
-    "valorEnDolares": 1.15
-  },
-  {
-    "nombre": "Yen japonés",
-    "codigo": "JPY",
-    "valorEnDolares": 0.009
+    "valorEnDolares": 1.16
   },
   {
     "nombre": "Libra esterlina",

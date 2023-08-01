@@ -73,26 +73,60 @@
             // Listado de los  telefonos de los empleados de Madrid
             // que contengan en su apellido una "a"
             // ordenado por nombre
-            List<Empleado> empleadosMadrid = Empleados
-                                             .Where(empleado =>
-                                                       (empleado.Ciudad == "Madrid" 
-                                                       && empleado.Nombre.Contains("a")
-                                                       || empleado.Nombre.Contains("A")
-                                                    ))
-                                             .OrderBy(empleado => empleado.Nombre)
-                                             .Select(empleado => empleado)
-                                             .ToList();
+
+            var empleadosTelefonoMadrid = Empleados.Where(e =>
+                                                            e.Ciudad == "Madrid" &&
+                                                            e.Apellidos.Contains("a") || 
+                                                            e.Apellidos.Contains("A"))
+                                     .OrderBy(e => e.Nombre)
+                                     .Select(e => e.Telefono)
+                                     .ToList();
 
 
-            List<Empleado> empleadosMadridConsulta = (from empleado in Empleados
+            List<Empleado> empleadosTelefonoMadridConsulta = (from empleado in Empleados
                                                                  where (empleado.Ciudad == "Madrid") && empleado.Apellidos.Contains("a") || empleado.Apellidos.Contains("A")
                                                                  orderby empleado.Nombre ascending
                                                                  select empleado).ToList();
 
+            // Listado de los  telefonos y ciudades de los empleados de Madrid
+            // que contengan en su apellido una "a"
+            // ordenado por nombre
 
+            var empleadosTelefonoCiudadMadrid = (from empleado in Empleados
+                                                 where (
+                                                 empleado.Apellidos.StartsWith("C") &&
+                                                 empleado.Ciudad == "Madrid"
+                                                 )
+                                                 orderby empleado.Nombre
+                                                 select new
+                                                 {
+                                                     Telefono = empleado.Telefono,
+                                                     Ciudad = empleado.Ciudad
+                                                 }).ToList();
 
+            foreach (var resultado in Empleadosportelefono1)
+            {
+                Console.WriteLine(resultado.Ciudad);
+            }
 
-
+            // Agregar esta lista a los antiguos empleados
+            // No se permite el uso de Lista.Add
+            // Se agregan todos de una vez
+            var empleadosNuevos = new List<Empleado>
+            {
+                new Empleado
+                {
+                    Nombre = "Fabricio",
+                    Apellidos = "Cordero",
+                    Departamento = Departamento.Desarrollo
+                },
+                new Empleado
+                {
+                    Nombre = "Julia",
+                    Apellidos = "Lombardo",
+                    Departamento = Departamento.Admin
+                },
+            };
 
         }
     }

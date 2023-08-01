@@ -73,7 +73,21 @@
             // Listado de los  telefonos de los empleados de Madrid
             // que contengan en su apellido una "a"
             // ordenado por nombre
+            List<Empleado> empleadosMadrid = Empleados
+                                             .Where(empleado =>
+                                                       (empleado.Ciudad == "Madrid" 
+                                                       && empleado.Nombre.Contains("a")
+                                                       || empleado.Nombre.Contains("A")
+                                                    ))
+                                             .OrderBy(empleado => empleado.Nombre)
+                                             .Select(empleado => empleado)
+                                             .ToList();
 
+
+            List<Empleado> empleadosMadridConsulta = (from empleado in Empleados
+                                                                 where (empleado.Ciudad == "Madrid") && empleado.Apellidos.Contains("a") || empleado.Apellidos.Contains("A")
+                                                                 orderby empleado.Nombre ascending
+                                                                 select empleado).ToList();
 
 
 

@@ -104,7 +104,7 @@
                                                      Ciudad = empleado.Ciudad
                                                  }).ToList();
 
-            foreach (var resultado in Empleadosportelefono1)
+            foreach (var resultado in empleadosTelefonoCiudadMadrid)
             {
                 Console.WriteLine(resultado.Ciudad);
             }

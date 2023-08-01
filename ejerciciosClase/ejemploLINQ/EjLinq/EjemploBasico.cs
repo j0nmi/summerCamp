@@ -33,10 +33,12 @@
 
             // Sintaxis de Metodos
             // 1-. Preparación
-            var consultaLinqMetodos = niveles.Where(nivel => nivel.Length > 6).ToList();
+            var consultaLinqMetodos = niveles.Where(nivel => nivel.Length > 6)
+                                             .OrderBy(nivel => nivel)
+                                             .Select(nivel => nivel);
 
             // 2-. Resultados
-
+            List<string> listaResultadoLinqMetodos = consultaLinqMetodos.ToList();
         }
     }
 }

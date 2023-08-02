@@ -8,8 +8,11 @@ namespace EntregaUno.Gestores
         // Ruta del fichero JSON.
         private const string rutaMonedasJson = @"..\..\..\BBDD\monedas.json";
 
+        
+
         public static void ListarMonedas()
         {
+
             try
             {
                 // Guarda el contenido de monedas.json en la variable json

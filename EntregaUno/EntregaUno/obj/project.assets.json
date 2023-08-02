@@ -55,24 +55,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pmpcurso1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jon\\Desktop\\Tracasa\\summercamp\\EntregaUno\\EntregaUno\\EntregaUno.csproj",
+      "projectUniqueName": "C:\\Curso\\summercamp\\EntregaUno\\EntregaUno\\EntregaUno.csproj",
       "projectName": "EntregaUno",
-      "projectPath": "C:\\Users\\Jon\\Desktop\\Tracasa\\summercamp\\EntregaUno\\EntregaUno\\EntregaUno.csproj",
-      "packagesPath": "C:\\Users\\Jon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jon\\Desktop\\Tracasa\\summercamp\\EntregaUno\\EntregaUno\\obj\\",
+      "projectPath": "C:\\Curso\\summercamp\\EntregaUno\\EntregaUno\\EntregaUno.csproj",
+      "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
+      "outputPath": "C:\\Curso\\summercamp\\EntregaUno\\EntregaUno\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Jon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -80,7 +75,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

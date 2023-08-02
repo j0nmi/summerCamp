@@ -23,7 +23,7 @@ namespace EntregaUno.Gestores
                     double cantidad = registro.Cantidad;
                     string monedaOrigen = registro.MonedaOrigen;
                     string monedaDestino = registro.MonedaDestino;
-                    decimal resultadoConversion = registro.ResultadoConversion;
+                    double resultadoConversion = registro.ResultadoConversion;
                     string fechaConversion = registro.FechaConversion;
 
                     // Muestra el registro

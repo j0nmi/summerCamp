@@ -71,7 +71,8 @@ namespace EntregaUno.Menus
                         {
                             Console.WriteLine($"\t Convirtiendo... ");
                             // Hay que sacar un método para que realice la conversión
-                            Console.WriteLine($"\n\t El cambio de {cantidad} {monedaOrigen} a {monedaDestino} son: {resultadoConversion}");
+                            double resultado = GestorConversor.ResultadoConversor(monedaOrigen, monedaDestino, cantidad);
+                            //Console.WriteLine($"\n\t El cambio de {cantidad} {monedaOrigen} a {monedaDestino} son: {resultadoConversion}");
                             Console.WriteLine("\n\t Presione cualquier tecla para volver...");
                             Console.ReadKey();
                             Console.Clear();
@@ -81,7 +82,7 @@ namespace EntregaUno.Menus
                                 Cantidad = cantidad,
                                 MonedaOrigen = monedaOrigen,
                                 MonedaDestino = monedaDestino,
-                                ResultadoConversion = resultadoConversion,
+                                ResultadoConversion = resultado,
                                 FechaConversion = DateTime.Now.ToString(),
                             };
 

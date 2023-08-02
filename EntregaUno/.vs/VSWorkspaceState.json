@@ -1,11 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\EntregaUno",
-    "\\EntregaUno\\BBDD",
-    "\\EntregaUno\\Clases",
-    "\\EntregaUno\\Menus"
+    ""
   ],
-  "SelectedNode": "\\EntregaUno\\BBDD\\historial.json",
+  "SelectedNode": "\\EntregaUno.sln",
   "PreviewInSolutionExplorer": false
 }

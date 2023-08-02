@@ -5,7 +5,7 @@
         public double Cantidad { get; set; }
         public string MonedaOrigen { get; set; }
         public string MonedaDestino { get; set; }
-        public decimal ResultadoConversion { get; set; }
+        public double ResultadoConversion { get; set; }
         public string FechaConversion { get; set; }
     }
 }

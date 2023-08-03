@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Curso\\summercamp\\EntregaUno\\EntregaUno\\EntregaUno.csproj",
+      "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE1\\EntregaUno\\EntregaUno\\EntregaUno.csproj",
       "projectName": "EntregaUno",
-      "projectPath": "C:\\Curso\\summercamp\\EntregaUno\\EntregaUno\\EntregaUno.csproj",
+      "projectPath": "C:\\Curso\\summercamp\\BLOQUE1\\EntregaUno\\EntregaUno\\EntregaUno.csproj",
       "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-      "outputPath": "C:\\Curso\\summercamp\\EntregaUno\\EntregaUno\\obj\\",
+      "outputPath": "C:\\Curso\\summercamp\\BLOQUE1\\EntregaUno\\EntregaUno\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",

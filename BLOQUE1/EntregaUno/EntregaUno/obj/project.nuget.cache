@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qvtqSBsjLEQFdgy7Ab0acN31dzxjKRzTjEKsr0rT+IL4TgXlohzDaw5zmNq/UUCajk4fPYS44wJkJElQKAn7LQ==",
+  "dgSpecHash": "ovMa7mA0ELj4lzuOKtEPMg4UU+0Rg+pncVvxTgb7Nf3j64t17HEWu6a5VAfcf5vEi/qg+HtqCfc3UinKqKZqrA==",
   "success": true,
-  "projectFilePath": "C:\\Curso\\summercamp\\EntregaUno\\EntregaUno\\EntregaUno.csproj",
+  "projectFilePath": "C:\\Curso\\summercamp\\BLOQUE1\\EntregaUno\\EntregaUno\\EntregaUno.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pmpcurso1\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

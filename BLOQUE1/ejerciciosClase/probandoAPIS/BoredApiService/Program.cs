@@ -10,8 +10,11 @@ namespace BoredApiService
     {
         static async Task Main(string[] args)
         {
-            BoredApiService boredApiService = new BoredApiService();
-            await boredApiService.Run();
+            //BoredApiService boredApiService = new BoredApiService();
+            //await boredApiService.Run();
+
+            FrankfurtApiService currencyApiService = new FrankfurtApiService();
+            await currencyApiService.Run();
         }
     }
 

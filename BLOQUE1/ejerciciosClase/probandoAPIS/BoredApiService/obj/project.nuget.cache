@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VKevhnhlTLemqSAbr9NAhQr9U47wYmiiWqu7pW/zQ3EvjYeYSi+eOJ99HACLRLyUUokDO3oLfvUj2E8hZsltsg==",
+  "dgSpecHash": "L1N5s8EkXnBex2gAzac0CVZan2U2bIeMg1M5wrFTfY979bb3lQJPIFwIs/CRwIpenzhSVhYq/NrZlhQnOoRMIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jon\\Desktop\\Tracasa\\summerCamp\\ejerciciosClase\\probandoAPIS\\BoredApiService\\BoredApiService.csproj",
+  "projectFilePath": "C:\\Curso\\summercamp\\BLOQUE1\\ejerciciosClase\\probandoAPIS\\BoredApiService\\BoredApiService.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Jon\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\pmpcurso1\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

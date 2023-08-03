@@ -13,8 +13,11 @@ namespace BoredApiService
             //BoredApiService boredApiService = new BoredApiService();
             //await boredApiService.Run();
 
-            FrankfurtApiService currencyApiService = new FrankfurtApiService();
-            await currencyApiService.Run();
+            //FrankfurtApiService currencyApiService = new FrankfurtApiService();
+            //await currencyApiService.Run();
+
+            FrankfurtApiService currenciesService = new FrankfurtApiService();
+            await currenciesService.Run();
         }
     }
 

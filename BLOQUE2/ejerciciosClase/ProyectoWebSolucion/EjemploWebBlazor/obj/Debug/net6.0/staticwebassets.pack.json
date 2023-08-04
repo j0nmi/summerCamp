@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\obj\\Debug\\net6.0\\build-gz\\b0B93YGa.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\EjemploWebBlazor.styles.css",
+      "PackagePath": "staticwebassets\\EjemploWebBlazor.styles.css"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Curso\\summercamp\\BLOQUE2\\ejerciciosClase\\ProyectoWebSolucion\\EjemploWebBlazor\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.EjemploWebBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.EjemploWebBlazor.props",
+      "PackagePath": "build\\EjemploWebBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.EjemploWebBlazor.props",
+      "PackagePath": "buildMultiTargeting\\EjemploWebBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.EjemploWebBlazor.props",
+      "PackagePath": "buildTransitive\\EjemploWebBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

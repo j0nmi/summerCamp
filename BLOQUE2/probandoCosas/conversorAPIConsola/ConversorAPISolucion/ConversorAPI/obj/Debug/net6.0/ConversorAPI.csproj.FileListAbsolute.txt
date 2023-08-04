@@ -1,0 +1,15 @@
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\bin\Debug\net6.0\ConversorAPI.exe
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\bin\Debug\net6.0\ConversorAPI.deps.json
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\bin\Debug\net6.0\ConversorAPI.runtimeconfig.json
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\bin\Debug\net6.0\ConversorAPI.dll
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\bin\Debug\net6.0\ConversorAPI.pdb
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\obj\Debug\net6.0\ConversorAPI.csproj.AssemblyReference.cache
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\obj\Debug\net6.0\ConversorAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\obj\Debug\net6.0\ConversorAPI.AssemblyInfoInputs.cache
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\obj\Debug\net6.0\ConversorAPI.AssemblyInfo.cs
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\obj\Debug\net6.0\ConversorAPI.csproj.CoreCompileInputs.cache
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\obj\Debug\net6.0\ConversorAPI.dll
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\obj\Debug\net6.0\refint\ConversorAPI.dll
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\obj\Debug\net6.0\ConversorAPI.pdb
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\obj\Debug\net6.0\ConversorAPI.genruntimeconfig.cache
+C:\Curso\summercamp\BLOQUE2\probandoCosas\conversorAPIConsola\ConversorAPISolucion\ConversorAPI\obj\Debug\net6.0\ref\ConversorAPI.dll

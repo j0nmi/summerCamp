@@ -1,5 +1,6 @@
 ﻿using EjemploConversorMVC.Models;
 using EjemploConversorMVC.Servicios;
+using EjemploConversorMVC.Servicios.Monedas;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -28,6 +29,7 @@ namespace EjemploConversorMVC.Controllers
 
         public IActionResult Privacy()
         {
+            throw   new Exception();
             var correo = servicioMail.EnviarMail("pepe@tracasa.es", "CORREO IMPORTANTE", "Hola Pepe, esto es importante.");
             ViewBag.Correo = "De: " + correo.TipoCorreo + " | Para: " + correo.CorreoDestino + " | Asunto: " + correo.AsuntoMail + " | Mensaje: " + correo.ContenidoMail;
             

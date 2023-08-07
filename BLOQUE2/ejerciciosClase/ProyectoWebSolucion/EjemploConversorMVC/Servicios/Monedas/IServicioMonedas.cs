@@ -1,5 +1,5 @@
 ﻿using EjemploConversorMVC.Models;
-namespace EjemploConversorMVC.Servicios
+namespace EjemploConversorMVC.Servicios.Monedas
 {
     public interface IServicioMonedas
     {

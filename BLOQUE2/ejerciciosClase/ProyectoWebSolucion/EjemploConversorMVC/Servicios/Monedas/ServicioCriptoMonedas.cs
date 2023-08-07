@@ -1,7 +1,6 @@
 ﻿using EjemploConversorMVC.Models;
-using EjemploConversorMVC.Servicios;
 
-namespace EjemploConversorMVC.Servicios
+namespace EjemploConversorMVC.Servicios.Monedas
 {
     public class ServicioCriptoMonedas : IServicioMonedas
     {

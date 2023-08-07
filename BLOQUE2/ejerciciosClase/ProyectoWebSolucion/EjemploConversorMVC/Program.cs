@@ -1,5 +1,6 @@
 using EjemploConversorMVC.Servicios;
 using EjemploConversorMVC.Servicios.Email;
+using EjemploConversorMVC.Servicios.Monedas;
 
 namespace EjemploConversorMVC
 {
@@ -31,10 +32,18 @@ namespace EjemploConversorMVC
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            else
+            {
+                //app.UseWelcomePage();
+            }
 
+            // Redirige de HTTP a HTTPs
             app.UseHttpsRedirection();
+
+            // Mostrar archivos estáticos
             app.UseStaticFiles();
 
+            // Si se desactiva no encuentra las rutas
             app.UseRouting();
 
             app.UseAuthorization();

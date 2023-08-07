@@ -1,6 +1,6 @@
 ﻿using EjemploConversorMVC.Models;
 
-namespace EjemploConversorMVC.Servicios
+namespace EjemploConversorMVC.Servicios.Email
 {
     public class ServicioMailDesarrollo : IMail
     {

@@ -3,3 +3,4 @@ INSTRUCCIONES:
 - Seleccionamos la db Northwind en el explorador.
 - Descargamos el código para crear la db: https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs
 - Descargamos la extensión de ingeniería reversa para dbs: EX Core Power Tools.
+- En la API > EX Core > Visualize Schema > (localdb)\mssqllocaldb > Seleccionamos la db Northwind > Añadir.

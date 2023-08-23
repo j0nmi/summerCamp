@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\proyecto\\conversor_losdeatras\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj",
+      "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj",
       "projectName": "EntidadesDTO",
-      "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyecto\\conversor_losdeatras\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj",
+      "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj",
       "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\proyecto\\conversor_losdeatras\\Entrega4\\EntidadesDTO\\obj\\",
+      "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\EntidadesDTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

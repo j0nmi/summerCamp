@@ -35,7 +35,7 @@ namespace ConversoApi.Controllers
         }
 
         //Borrar si el usuario lo requiere
-        [HttpGet("{usuario}")]
+        [HttpDelete("{usuario}")]
         public async Task<ActionResult<HistorialActualizarDto>> BorrarHistorial(Guid usuario)
         {
             var historialUsuario = _mapper.Map<List<Historial>>(repositorioHistorial.obtenerTodas(usuario));

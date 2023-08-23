@@ -1,0 +1,11 @@
+﻿CREATE PROCEDURE dbo.ProcedureHistorial @usuarioId uniqueidentifier AS
+SELECT TOP(10) monedaOrigen, monedaDestino, fechaConversion, resultado, cantidad
+FROM dbo.historial
+WHERE idUsuario = @usuarioId
+
+
+
+CREATE PROCEDURE dbo.BorrarHistorial @usuarioId uniqueidentifier AS
+DELETE 
+FROM dbo.historial 
+WHERE idUsuario = @usuarioId

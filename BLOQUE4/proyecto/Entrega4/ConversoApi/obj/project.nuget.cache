@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hMtZr4YXe3YnTOxtQtMy9W+4t+Nd8vmPPP3JgQKPxTy6ZtGjgKARP5+/oFBW202+wCc3I3c3qz+k5xTNEDnHrw==",
+  "dgSpecHash": "lKiVH7hjFBQA2ZW1Uq725/5aKEHlj/OIZfoBlAVTSzk6LKQoj1ozwy0oTdp4/qjFOG8A57BEuNjOeky6h6ZqQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pmpcurso1\\Desktop\\proyecto\\conversor_losdeatras\\Entrega4\\ConversoApi\\ConversoApi.csproj",
+  "projectFilePath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\ConversoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pmpcurso1\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\pmpcurso1\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -5,6 +5,7 @@ namespace EntidadesDTO.Usuarios
 {
     public class UsuarioActualizar
     {
+        public Guid id { get; set; }
         public Guid idPais { get; set; }
         public string email { get; set; }
 

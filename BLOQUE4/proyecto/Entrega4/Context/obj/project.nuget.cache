@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "04ZtycoP8khpRWV8p9cE6ty+4c/tsHV3SSxOtUwtRQ/nGNrgU0T2mbEOZpJ4Ggw8XgW/+9Ml1fJBAQHpmwezhw==",
+  "dgSpecHash": "3+vBjB8oTGqBcJaMFqDohU67PcSLuWRtuutDTiGOypUI7d3YTAHKDvg73UWJAmY3Pwp8aIKePGMb5OgWEAfSPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pmpcurso1\\Desktop\\proyecto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj",
+  "projectFilePath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pmpcurso1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pmpcurso1\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

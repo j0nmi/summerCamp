@@ -5,6 +5,7 @@ using Repositorios;
 using AutoMapper;
 using EntidadesDTO.Usuarios;
 using Microsoft.AspNetCore.JsonPatch;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace ConversoApi.Controllers
 {
@@ -48,11 +49,11 @@ namespace ConversoApi.Controllers
 
             var usuarioDto = _mapper.Map<UsuarioActualizar>(usuario);
 
-            valor.ApplyTo(usuarioDto);
+            valor.ApplyTo(usuarioDto, ModelState);
 
-            var usuarioEntidad = _mapper.Map<Usuario>(usuarioDto);
+            _mapper.Map(usuarioDto, usuario);
 
-            repositorioUsuarios.editar(usuarioEntidad);
+            repositorioUsuarios.guardarCambios();
 
             return NoContent();
         }

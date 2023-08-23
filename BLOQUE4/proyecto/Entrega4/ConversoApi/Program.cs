@@ -3,6 +3,7 @@ using Repositorios;
 using Microsoft.EntityFrameworkCore;
 using APIMoneda;
 using Serilog;
+using Newtonsoft.Json.Serialization;
 
 namespace ConversoApi
 {
@@ -22,7 +23,15 @@ namespace ConversoApi
             //+ 1-Add services to the container.
             builder.Host.UseSerilog();
 
-            builder.Services.AddControllers();  // MVC
+            builder.Services.AddControllers(configure =>
+        {
+            configure.ReturnHttpNotAcceptable = true;
+        })
+        .AddNewtonsoftJson(setupAction =>
+        {
+            setupAction.SerializerSettings.ContractResolver =
+                new CamelCasePropertyNamesContractResolver();
+        });  // MVC
 
             // Documentador de la API    
             // Learn more about configuring Swagger/OpenAPI at

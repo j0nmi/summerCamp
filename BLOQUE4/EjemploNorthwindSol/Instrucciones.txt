@@ -1,0 +1,4 @@
+INSTRUCCIONES:
+- Creamos la db Northwind.
+- Seleccionamos la db Northwind en el explorador.
+- Descargamos el código para crear la db: https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs

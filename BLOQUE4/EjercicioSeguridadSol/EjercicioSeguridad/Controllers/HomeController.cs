@@ -1,4 +1,5 @@
 ﻿using EjercicioSeguridad.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -18,6 +19,8 @@ namespace EjercicioSeguridad.Controllers
             return View();
         }
 
+        // Protegemos la página de privacidad
+        [Authorize]
         public IActionResult Privacy()
         {
             return View();

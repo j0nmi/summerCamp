@@ -1,0 +1,513 @@
+{
+	"info": {
+		"_postman_id": "cb453e0e-e194-429e-9e89-adf45132b7c0",
+		"name": "APIConversor LosDeAtras",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29158506"
+	},
+	"item": [
+		{
+			"name": "Localhost",
+			"item": [
+				{
+					"name": "Historial",
+					"item": [
+						{
+							"name": "GET Historial por usuario",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/historial?usuario=d28888e9-2ba9-473a-a40f-e38cb54f9b31",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"historial"
+									],
+									"query": [
+										{
+											"key": "usuario",
+											"value": "d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DELETE Historial por usuario",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/historial/d28888e9-2ba9-473a-a40f-e38cb54f9b31",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"historial",
+										"d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Conversor",
+					"item": [
+						{
+							"name": "POST Conversor",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"monedaOrigen\": \"EUR\",\r\n    \"monedaDestino\": \"JPY\",\r\n    \"cantidad\": 2000\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/conversor?usuario=d28888e9-2ba9-473a-a40f-e38cb54f9b31",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"conversor"
+									],
+									"query": [
+										{
+											"key": "usuario",
+											"value": "d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Usuarios",
+					"item": [
+						{
+							"name": "GET Usuario por Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/usuarios/d28888e9-2ba9-473a-a40f-e38cb54f9b31",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"usuarios",
+										"d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PATCH Usuario por Id",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n  {\r\n    \"operationType\": 1,\r\n    \"path\": \"/email\",\r\n    \"op\": \"replace\",\r\n    \"value\": \"nuevo_email@example.com\"\r\n  }\r\n]\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/usuarios/d28888e9-2ba9-473a-a40f-e38cb54f9b31",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"usuarios",
+										"d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Paises",
+					"item": [
+						{
+							"name": "GET Paises",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/paises",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"paises"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Pais por Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/paises/d28888e9-2ba9-473a-a40f-e38cb54f9b01",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"paises",
+										"d28888e9-2ba9-473a-a40f-e38cb54f9b01"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Monedas",
+					"item": [
+						{
+							"name": "GET Monedas",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/monedas",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"monedas"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Moneda por Código",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/monedas/EUR",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"monedas",
+										"EUR"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Azure",
+			"item": [
+				{
+					"name": "Historial",
+					"item": [
+						{
+							"name": "GET Historial por usuario",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://conversorwebapi.azurewebsites.net/api/historial?usuario=d28888e9-2ba9-473a-a40f-e38cb54f9b31",
+									"protocol": "https",
+									"host": [
+										"conversorwebapi",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"api",
+										"historial"
+									],
+									"query": [
+										{
+											"key": "usuario",
+											"value": "d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DELETE Historial por usuario",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://conversorwebapi.azurewebsites.net/api/historial/d28888e9-2ba9-473a-a40f-e38cb54f9b31",
+									"protocol": "https",
+									"host": [
+										"conversorwebapi",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"api",
+										"historial",
+										"d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Conversor",
+					"item": [
+						{
+							"name": "POST Conversor",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"monedaOrigen\": \"EUR\",\r\n    \"monedaDestino\": \"JPY\",\r\n    \"cantidad\": 2000\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://conversorwebapi.azurewebsites.net/api/conversor?usuario=d28888e9-2ba9-473a-a40f-e38cb54f9b31",
+									"protocol": "https",
+									"host": [
+										"conversorwebapi",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"api",
+										"conversor"
+									],
+									"query": [
+										{
+											"key": "usuario",
+											"value": "d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Usuarios",
+					"item": [
+						{
+							"name": "GET Usuario por Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/usuarios/d28888e9-2ba9-473a-a40f-e38cb54f9b31",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"usuarios",
+										"d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PATCH Usuario por Id",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n  {\r\n    \"operationType\": 1,\r\n    \"path\": \"/email\",\r\n    \"op\": \"replace\",\r\n    \"value\": \"nuevo_email@example.com\"\r\n  }\r\n]\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/usuarios/d28888e9-2ba9-473a-a40f-e38cb54f9b31",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"usuarios",
+										"d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Paises",
+					"item": [
+						{
+							"name": "GET Paises",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://conversorwebapi.azurewebsites.net/api/paises",
+									"protocol": "https",
+									"host": [
+										"conversorwebapi",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"api",
+										"paises"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Pais por Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://conversorwebapi.azurewebsites.net/api/paises/d28888e9-2ba9-473a-a40f-e38cb54f9b01",
+									"protocol": "https",
+									"host": [
+										"conversorwebapi",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"api",
+										"paises",
+										"d28888e9-2ba9-473a-a40f-e38cb54f9b01"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Monedas",
+					"item": [
+						{
+							"name": "GET Monedas",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://conversorwebapi.azurewebsites.net/api/monedas",
+									"protocol": "https",
+									"host": [
+										"conversorwebapi",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"api",
+										"monedas"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET Moneda por Código",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://conversorwebapi.azurewebsites.net/api/monedas/EUR",
+									"protocol": "https",
+									"host": [
+										"conversorwebapi",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"api",
+										"monedas",
+										"EUR"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "portNumber",
+			"value": "7019"
+		}
+	]
+}

@@ -45,8 +45,8 @@ namespace Context.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double?>("resultado")
-                        .HasColumnType("float");
+                    b.Property<float?>("resultadoConversion")
+                        .HasColumnType("real");
 
                     b.HasKey("id");
 

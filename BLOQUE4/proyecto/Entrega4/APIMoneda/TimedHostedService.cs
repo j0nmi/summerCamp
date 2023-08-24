@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -16,11 +17,13 @@ namespace APIMoneda
     {
         private int executionCount = 0;
         private readonly ILogger<TimedHostedService> _logger;
+        private readonly IConfiguration configuration;
         private Timer? _timer = null;
 
-        public TimedHostedService(ILogger<TimedHostedService> logger)
+        public TimedHostedService(ILogger<TimedHostedService> logger, IConfiguration configuration)
         {
             _logger = logger;
+            this.configuration = configuration;
         }
 
         public Task StartAsync(CancellationToken stoppingToken)
@@ -39,7 +42,8 @@ namespace APIMoneda
             var serviceProvider = new ServiceCollection()
                 .AddScoped<IArrayJson, ArrayJson>().AddTransient<IRepositorioMonedas, RepositorioMonedas>().AddDbContext<ContextoConversor>(options =>
             {
-                options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ConversorBD;Trusted_Connection=True;MultipleActiveResultSets=true");
+                options.UseSqlServer(configuration.GetConnectionString("ConexionDatos"));
+                //options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ConversorBD;Trusted_Connection=True;MultipleActiveResultSets=true");
             })
                 .BuildServiceProvider();
 

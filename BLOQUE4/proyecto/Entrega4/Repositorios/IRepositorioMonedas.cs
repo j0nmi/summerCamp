@@ -4,8 +4,8 @@ namespace Repositorios
 {
     public interface IRepositorioMonedas
     {
-        List<Moneda> obtenerTodas();
-        Moneda obtenerMoneda(string prefijo);
-        Moneda alta(Moneda moneda);
+        Task<IEnumerable<Moneda>> obtenerTodas();
+        Task<Moneda> obtenerMoneda(string prefijo);
+        Task<Moneda> alta(Moneda moneda);
     }
 }

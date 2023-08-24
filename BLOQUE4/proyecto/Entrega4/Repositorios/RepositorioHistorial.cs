@@ -1,47 +1,58 @@
 ﻿using Context;
 using Entidades.Entities;
+using EntidadesDTO.Conversor;
 
 namespace Repositorios
 {
     public class RepositorioHistorial : IRepositorioHistorial
     {
         private readonly ContextoConversor _context;
+        private readonly IRepositorioMonedas repositorioMonedas;
 
-        public RepositorioHistorial(ContextoConversor context)
+        public RepositorioHistorial(ContextoConversor context, IRepositorioMonedas repositorioMonedas)
         {
             _context = context;
+            this.repositorioMonedas = repositorioMonedas;
         }
 
-        public List<Historial> obtenerTodas(Guid usuario)
+        public async Task<IEnumerable<Historial>> obtenerTodas(Guid usuario)
         {
-            return _context.historial.Where(m => m.id == usuario).ToList();
+            var resultad = _context.historial.Where(m => m.idUsuario == usuario);
+            return resultad;
         }
 
-        public Historial crearRegistroHistorial(Historial historial, Guid usuario)
+        public async Task<Historial> crearRegistroHistorial(Conversor conversion, Guid usuario)
         {
             Historial listaHistorial = new Historial();
 
             listaHistorial.idUsuario = usuario;
-            listaHistorial.monedaOrigen = historial.monedaOrigen;
-            listaHistorial.monedaDestino = historial.monedaDestino;
-            listaHistorial.cantidad = historial.cantidad;
+            listaHistorial.monedaOrigen = conversion.monedaOrigen;
+            listaHistorial.monedaDestino = conversion.monedaDestino;
+            listaHistorial.cantidad = conversion.cantidad;
             listaHistorial.fechaConversion = DateTime.Now;
-            listaHistorial.resultado = historial.resultado;
-            if (historial.resultado != null) listaHistorial.resultado = historial.resultado;
-            else listaHistorial.resultado = 0;
+
+            // CALCULO
+
+            Moneda monedaOrigen = await repositorioMonedas.obtenerMoneda(conversion.monedaOrigen);
+            Moneda monedaDestino = await repositorioMonedas.obtenerMoneda(conversion.monedaDestino);
+
+            var resultado = ((1 / monedaOrigen.factor) * monedaDestino.factor) * conversion.cantidad;
+
+            if (resultado != null) listaHistorial.resultadoConversion = resultado;
+            else listaHistorial.resultadoConversion = 0;
 
             _context.Add(listaHistorial);
             _context.SaveChanges();
             return listaHistorial;
         }
-        public List<Historial> VaciarHistorial(Guid usuario)
+        public async Task<string> VaciarHistorial(Guid usuario)
         {
             var historialesUsuario = _context.historial.Where(h => h.idUsuario == usuario).ToList();
 
             _context.historial.RemoveRange(historialesUsuario);
             _context.SaveChanges();
 
-            return _context.historial.Where(m => m.id == usuario).ToList();
+            return "Borrado";
         }
     }
 }

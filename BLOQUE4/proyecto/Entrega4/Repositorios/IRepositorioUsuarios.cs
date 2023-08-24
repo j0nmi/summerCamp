@@ -4,7 +4,7 @@ namespace Repositorios
 {
     public interface IRepositorioUsuarios
     {
-        Usuario obtenerUsuario(Guid id);
-        int guardarCambios();
+        Task<Usuario> obtenerUsuario(Guid id);
+        Task<int> guardarCambios();
     }
 }

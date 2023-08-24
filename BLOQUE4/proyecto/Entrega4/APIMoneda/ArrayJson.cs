@@ -57,6 +57,7 @@ namespace APIMoneda
                     monedaAdd.factor = item.factor;
                     monedaAdd.nombre = item.nombre;
                     repositorioMonedas.alta(monedaAdd);
+                    
                 }
 
             }

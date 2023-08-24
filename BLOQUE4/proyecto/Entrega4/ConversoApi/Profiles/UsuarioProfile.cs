@@ -9,8 +9,9 @@ public class UsuarioProfile : Profile
     {
         CreateMap<UsuarioVerDto, Usuario>();
 
-        CreateMap<Usuario, UsuarioActualizar>();
+        CreateMap<Usuario, UsuarioActualizarDto>();
+        CreateMap<UsuarioActualizarDto, Usuario>();
 
-        CreateMap<UsuarioActualizar, Usuario>();
+        CreateMap<Usuario, UsuarioVerDto>();
     }
 }

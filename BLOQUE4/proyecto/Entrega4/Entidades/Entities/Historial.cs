@@ -18,7 +18,7 @@ namespace Entidades.Entities
         [Required]
         public string monedaDestino { get; set; }
 
-        public double? resultado { get; set; }
+        public float? resultadoConversion { get; set; }
 
         [Required]
         public DateTime fechaConversion { get; set; }

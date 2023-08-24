@@ -6,14 +6,14 @@ namespace EntidadesDTO.Historial
     public class HistorialAltaDto
     {
         public Guid id { get; set; }
-        public int idUsuario { get; set; }
+        public Guid idUsuario { get; set; }
         public double cantidad { get; set; }
 
         public string monedaOrigen { get; set; }
 
         public string monedaDestino { get; set; }
 
-        public double? resultadoConversion { get; set; }
+        public float? resultadoConversion { get; set; }
 
         public DateTime fechaConversion { get; set; }
   

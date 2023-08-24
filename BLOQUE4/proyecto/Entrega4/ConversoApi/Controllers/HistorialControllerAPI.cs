@@ -29,40 +29,23 @@ namespace ConversoApi.Controllers
         [HttpGet]
         public async Task<ActionResult<List<HistorialVerDto>>> MostrarHistorial(Guid usuario)
         {
-            var listaHistorial = _mapper.Map<List<HistorialVerDto>>(repositorioHistorial.obtenerTodas(usuario));
+            var listaHistorial = _mapper.Map<List<HistorialVerDto>>(await repositorioHistorial.obtenerTodas(usuario));
 
-            return Ok(listaHistorial);
+            return Ok(listaHistorial.ToList()) ;
         }
 
         //Borrar si el usuario lo requiere
         [HttpDelete("{usuario}")]
         public async Task<ActionResult<HistorialActualizarDto>> BorrarHistorial(Guid usuario)
         {
-            var historialUsuario = _mapper.Map<List<Historial>>(repositorioHistorial.obtenerTodas(usuario));
+            var historialUsuario = _mapper.Map<List<Historial>>(await repositorioHistorial.obtenerTodas(usuario));
             if (historialUsuario == null)
             {
                 return NotFound();
             }
 
-            repositorioHistorial.VaciarHistorial(usuario);
+            await repositorioHistorial.VaciarHistorial(usuario);
             return Ok(historialUsuario); 
         }
-
-        //crear historial
-        [HttpPost]
-        public async Task<ActionResult<HistorialVerDto>> CreateHistorial([FromBody] HistorialVerDto historial, Guid usuario)
-        {
-            var listahistorial = _mapper.Map<Historial>(historial);
-
-            repositorioHistorial.crearRegistroHistorial(listahistorial, usuario);
-
-            var historialToReturn = _mapper.Map<HistorialVerDto>(listahistorial);
-
-            return CreatedAtRoute("GetHistorial",
-                new { historialId = historialToReturn.id },
-                historialToReturn);
-        }
-
-
     }
 }

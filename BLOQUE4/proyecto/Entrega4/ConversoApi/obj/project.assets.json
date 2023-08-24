@@ -61,6 +61,27 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.JsonPatch": "6.0.8",
+          "Newtonsoft.Json": "13.0.1",
+          "Newtonsoft.Json.Bson": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -674,6 +695,22 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1324,6 +1361,21 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.xml",
         "microsoft.aspnetcore.jsonpatch.6.0.8.nupkg.sha512",
         "microsoft.aspnetcore.jsonpatch.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.8": {
+      "sha512": "2imWU1FEnirRogFvtu+wV11xJuC0u7aNprpNQygQLTZvnSlaLPTJhUUrqskFVn6PRDv3kCE4peaBJKwseNv71w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -2401,6 +2453,27 @@
         "packageIcon.png"
       ]
     },
+    "Newtonsoft.Json.Bson/1.0.2": {
+      "sha512": "QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
+      "type": "package",
+      "path": "newtonsoft.json.bson/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net45/Newtonsoft.Json.Bson.dll",
+        "lib/net45/Newtonsoft.Json.Bson.pdb",
+        "lib/net45/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.pdb",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.pdb",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.xml",
+        "newtonsoft.json.bson.1.0.2.nupkg.sha512",
+        "newtonsoft.json.bson.nuspec"
+      ]
+    },
     "Serilog/2.10.0": {
       "sha512": "+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
       "type": "package",
@@ -3206,9 +3279,9 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Context >= 1.0.0",
       "Microsoft.AspNetCore.JsonPatch >= 6.0.8",
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.8",
       "Microsoft.EntityFrameworkCore >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.4",
-      "Newtonsoft.Json >= 13.0.3",
       "Repositorios >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -3219,11 +3292,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\ConversoApi.csproj",
+      "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\ConversoApi\\ConversoApi.csproj",
       "projectName": "ConversoApi",
-      "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\ConversoApi.csproj",
+      "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\ConversoApi\\ConversoApi.csproj",
       "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-      "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\obj\\",
+      "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\ConversoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3240,14 +3313,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj": {
-              "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj"
+            "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj": {
+              "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj"
             },
-            "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj": {
-              "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj"
+            "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj": {
+              "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj"
             },
-            "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj": {
-              "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj"
+            "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj": {
+              "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj"
             }
           }
         }
@@ -3270,6 +3343,10 @@
             "target": "Package",
             "version": "[6.0.8, )"
           },
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+            "target": "Package",
+            "version": "[6.0.8, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.4, )"
@@ -3279,10 +3356,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.4, )"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[13.0.3, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

@@ -14,7 +14,8 @@ namespace ConversoApi
             Log.Logger = new LoggerConfiguration()
             .MinimumLevel.Debug()
             .WriteTo.Console()
-            .WriteTo.File("monedasInfo.txt", rollingInterval: RollingInterval.Day)
+            .WriteTo.File("monedasInfo.txt")
+            //.WriteTo.File("monedasInfo.txt", rollingInterval: RollingInterval.Day)
             .CreateLogger();
 
             var builder = WebApplication.CreateBuilder(args);
@@ -70,6 +71,7 @@ namespace ConversoApi
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {

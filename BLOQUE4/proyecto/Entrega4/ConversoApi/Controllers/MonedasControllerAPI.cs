@@ -27,16 +27,16 @@ namespace ConversoApi.Controllers
         [HttpGet]
         public async Task<ActionResult<List<MonedaVerDto>>> Index()
         {
-            var listaMonedas = _mapper.Map<List<MonedaVerDto>>(repositorioMonedas.obtenerTodas());
+            var listaMonedas = _mapper.Map<List<MonedaVerDto>>(await repositorioMonedas.obtenerTodas());
 
-            return Ok(listaMonedas);
+            return Ok(listaMonedas.ToList());
         }
 
         //Obtener UNA MONEDA
         [HttpGet("{monedaCodigo}", Name = "GetMoneda")]
         public async Task<ActionResult<string>> GetMoneda([FromRoute] string monedaCodigo)
         {
-            var moneda = repositorioMonedas.obtenerMoneda(monedaCodigo);
+            var moneda = await repositorioMonedas.obtenerMoneda(monedaCodigo);
 
             if (moneda == null)
             {

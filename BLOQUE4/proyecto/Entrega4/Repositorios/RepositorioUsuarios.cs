@@ -12,13 +12,13 @@ namespace Repositorios
             _context = context;
         }
 
-        public Usuario obtenerUsuario(Guid id)
+        public async Task<Usuario> obtenerUsuario(Guid id)
         {
 
             return _context.usuarios.FirstOrDefault(m => m.id == id);
         }
 
-        public int guardarCambios()
+        public async Task<int> guardarCambios()
         {
             return _context.SaveChanges();
         }

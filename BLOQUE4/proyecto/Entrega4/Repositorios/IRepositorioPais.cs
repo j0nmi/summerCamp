@@ -4,8 +4,8 @@ namespace Repositorios
 {
     public interface IRepositorioPais
     {
-        List<Pais> obtenerTodas();
-        Pais obtenerPais(Guid id);
-        Pais alta(Pais pais);
+        Task<IEnumerable<Pais>> obtenerTodas();
+        Task<Pais> obtenerPais(Guid id);
+        //Task<Pais> alta(Pais pais);
     }
 }

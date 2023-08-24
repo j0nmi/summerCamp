@@ -11,7 +11,7 @@ namespace Repositorios
         {
             _context = context;
         }
-        public Moneda alta(Moneda? moneda)
+        public async Task<Moneda> alta(Moneda? moneda)
         {
 
             Moneda existeMoneda = _context.monedas.FirstOrDefault(m => m.codigo == moneda.codigo);
@@ -19,26 +19,24 @@ namespace Repositorios
             if (existeMoneda != null)
             {
                 existeMoneda.factor = moneda.factor;
-                _context.SaveChanges();
             }
             else
             {
                 _context.Add(moneda);
-                _context.SaveChanges();
             }
-
+            _context.SaveChanges();
             return moneda;
         }
 
-        public Moneda obtenerMoneda(string prefijo)
+        public async Task<Moneda> obtenerMoneda(string prefijo)
         {
 
             return _context.monedas.FirstOrDefault(m => m.codigo == prefijo);
         }
 
-        public List<Moneda> obtenerTodas()
+        public async Task<IEnumerable<Moneda>> obtenerTodas()
         {
-            return _context.monedas.ToList();
+            return _context.monedas;
 
         }
     }

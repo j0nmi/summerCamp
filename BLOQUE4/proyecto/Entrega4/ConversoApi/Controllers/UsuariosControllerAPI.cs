@@ -27,7 +27,7 @@ namespace ConversoApi.Controllers
         [HttpGet("{usuarioCodigo}", Name = "GetUsuario")]
         public async Task<ActionResult<UsuarioVerDto>> GetUsuario([FromRoute] Guid usuarioCodigo)
         {
-            var usuario = repositorioUsuarios.obtenerUsuario(usuarioCodigo);
+            var usuario = await repositorioUsuarios.obtenerUsuario(usuarioCodigo);
 
             if (usuario == null)
             {
@@ -38,22 +38,22 @@ namespace ConversoApi.Controllers
         //actualizar usuarios
 
         [HttpPatch("{usuarioCodigo}")]
-        public async Task<ActionResult> PatchUsuario([FromRoute] Guid usuarioCodigo, [FromBody] JsonPatchDocument<UsuarioActualizar> valor)
+        public async Task<ActionResult> PatchUsuario([FromRoute] Guid usuarioCodigo, [FromBody] JsonPatchDocument<UsuarioActualizarDto> valor)
         {
-            var usuario = repositorioUsuarios.obtenerUsuario(usuarioCodigo);
+            var usuario = await repositorioUsuarios.obtenerUsuario(usuarioCodigo);
 
             if (usuario == null)
             {
                 return NotFound();
             }       
 
-            var usuarioDto = _mapper.Map<UsuarioActualizar>(usuario);
+            var usuarioDto = _mapper.Map<UsuarioActualizarDto>(usuario);
 
             valor.ApplyTo(usuarioDto, ModelState);
 
             _mapper.Map(usuarioDto, usuario);
 
-            repositorioUsuarios.guardarCambios();
+            await repositorioUsuarios.guardarCambios();
 
             return NoContent();
         }

@@ -28,16 +28,16 @@ namespace ConversoApi.Controllers
         [HttpGet]
         public async Task<ActionResult<List<PaisVerDto>>> Index()
         {
-            var listaPaises = _mapper.Map<List<PaisVerDto>>(repositorioPais.obtenerTodas());
+            var listaPaises = _mapper.Map<List<PaisVerDto>>(await repositorioPais.obtenerTodas());
 
-            return Ok(listaPaises);
+            return Ok(listaPaises.ToList());
         }
 
         //Obtener UN PAIS
         [HttpGet("{paisId}", Name = "GetPais")]
         public async Task<ActionResult<PaisVerDto>> GetPais([FromRoute] Guid paisId)
         {
-            var pais = repositorioPais.obtenerPais(paisId);
+            var pais = await repositorioPais.obtenerPais(paisId);
 
             if (pais == null)
             {

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EjemploAPIAutenticada.Seguridad
 {
-    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
+    public class ApplicationDbContext : IdentityDbContext<Usuario> // Especificamos que el context se basa en usuario (mi tabla)
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {

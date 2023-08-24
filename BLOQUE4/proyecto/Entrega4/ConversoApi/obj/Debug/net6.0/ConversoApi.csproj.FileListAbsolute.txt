@@ -74,7 +74,6 @@ C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\
 C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\obj\Debug\net6.0\ConversoApi.AssemblyInfoInputs.cache
 C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\obj\Debug\net6.0\ConversoApi.AssemblyInfo.cs
 C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\obj\Debug\net6.0\ConversoApi.csproj.CoreCompileInputs.cache
-C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\obj\Debug\net6.0\ConversoApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\obj\Debug\net6.0\ConversoApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\obj\Debug\net6.0\staticwebassets\msbuild.ConversoApi.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\obj\Debug\net6.0\staticwebassets\msbuild.build.ConversoApi.props
@@ -91,3 +90,5 @@ C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\
 C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\obj\Debug\net6.0\ConversoApi.genruntimeconfig.cache
 C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\obj\Debug\net6.0\ref\ConversoApi.dll
 C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\bin\Debug\net6.0\Postman\APIConversor LosDeAtras.postman_collection.json
+C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\bin\Debug\net6.0\APIPaises.dll
+C:\Users\pmpcurso1\Desktop\proyrecyto\conversor_losdeatras\Entrega4\ConversoApi\bin\Debug\net6.0\APIPaises.pdb

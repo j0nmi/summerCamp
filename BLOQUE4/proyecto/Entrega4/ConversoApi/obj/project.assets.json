@@ -1247,6 +1247,26 @@
           "bin/placeholder/APIMoneda.dll": {}
         }
       },
+      "APIPaises/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Context": "1.0.0",
+          "Entidades": "1.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Repositorios": "1.0.0",
+          "Serilog.AspNetCore": "6.0.0",
+          "Serilog.Sinks.Console": "4.1.0",
+          "Serilog.Sinks.File": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/APIPaises.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/APIPaises.dll": {}
+        }
+      },
       "Context/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3252,6 +3272,11 @@
       "path": "../APIMoneda/APIMoneda.csproj",
       "msbuildProject": "../APIMoneda/APIMoneda.csproj"
     },
+    "APIPaises/1.0.0": {
+      "type": "project",
+      "path": "../APIPaises/APIPaises.csproj",
+      "msbuildProject": "../APIPaises/APIPaises.csproj"
+    },
     "Context/1.0.0": {
       "type": "project",
       "path": "../Context/Context.csproj",
@@ -3276,6 +3301,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "APIMoneda >= 1.0.0",
+      "APIPaises >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Context >= 1.0.0",
       "Microsoft.AspNetCore.JsonPatch >= 6.0.8",
@@ -3315,6 +3341,9 @@
           "projectReferences": {
             "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj": {
               "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj"
+            },
+            "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIPaises\\APIPaises.csproj": {
+              "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIPaises\\APIPaises.csproj"
             },
             "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj": {
               "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj"

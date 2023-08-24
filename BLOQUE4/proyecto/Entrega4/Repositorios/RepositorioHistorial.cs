@@ -23,18 +23,22 @@ namespace Repositorios
 
         public async Task<Historial> crearRegistroHistorial(Conversor conversion, Guid usuario)
         {
+
+            Moneda monedaOrigen = await repositorioMonedas.obtenerMoneda(conversion.monedaOrigen);
+            Moneda monedaDestino = await repositorioMonedas.obtenerMoneda(conversion.monedaDestino);
+
             Historial listaHistorial = new Historial();
 
             listaHistorial.idUsuario = usuario;
-            listaHistorial.monedaOrigen = conversion.monedaOrigen;
-            listaHistorial.monedaDestino = conversion.monedaDestino;
+            listaHistorial.monedaOrigen = monedaOrigen;
+            listaHistorial.monedaDestino = monedaDestino;
             listaHistorial.cantidad = conversion.cantidad;
             listaHistorial.fechaConversion = DateTime.Now;
 
             // CALCULO
 
-            Moneda monedaOrigen = await repositorioMonedas.obtenerMoneda(conversion.monedaOrigen);
-            Moneda monedaDestino = await repositorioMonedas.obtenerMoneda(conversion.monedaDestino);
+            //Moneda monedaOrigen = await repositorioMonedas.obtenerMoneda(conversion.monedaOrigen);
+            //Moneda monedaDestino = await repositorioMonedas.obtenerMoneda(conversion.monedaDestino);
 
             var resultado = ((1 / monedaOrigen.factor) * monedaDestino.factor) * conversion.cantidad;
 

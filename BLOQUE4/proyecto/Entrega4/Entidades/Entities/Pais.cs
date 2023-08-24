@@ -12,11 +12,5 @@ namespace Entidades.Entities
 
         [Required]
         public string nombre { get; set; }
-
-        public Pais(string nombre, string bandera)
-        {
-            this.bandera = bandera;
-            this.nombre = nombre;
-        }
     }
 }

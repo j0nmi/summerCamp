@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Context", "Context\Context.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIMoneda", "APIMoneda\APIMoneda.csproj", "{7E8F9E81-9409-4D36-AAA4-38624DB839CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesDTO", "EntidadesDTO\EntidadesDTO.csproj", "{A613FD03-D680-41F6-95E3-64978A7AFE60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntidadesDTO", "EntidadesDTO\EntidadesDTO.csproj", "{A613FD03-D680-41F6-95E3-64978A7AFE60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIPaises", "APIPaises\APIPaises.csproj", "{DF9017F6-5E2C-4A5C-9528-F5EB3945670A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A613FD03-D680-41F6-95E3-64978A7AFE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A613FD03-D680-41F6-95E3-64978A7AFE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A613FD03-D680-41F6-95E3-64978A7AFE60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF9017F6-5E2C-4A5C-9528-F5EB3945670A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9017F6-5E2C-4A5C-9528-F5EB3945670A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9017F6-5E2C-4A5C-9528-F5EB3945670A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9017F6-5E2C-4A5C-9528-F5EB3945670A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

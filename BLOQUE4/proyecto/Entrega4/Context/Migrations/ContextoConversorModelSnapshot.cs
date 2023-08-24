@@ -37,18 +37,22 @@ namespace Context.Migrations
                     b.Property<Guid>("idUsuario")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("monedaDestino")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("moneda1")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("monedaOrigen")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("moneda2")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<float?>("resultadoConversion")
                         .HasColumnType("real");
 
                     b.HasKey("id");
+
+                    b.HasIndex("idUsuario");
+
+                    b.HasIndex("moneda1");
+
+                    b.HasIndex("moneda2");
 
                     b.ToTable("historial");
                 });
@@ -90,26 +94,6 @@ namespace Context.Migrations
                     b.HasKey("id");
 
                     b.ToTable("paises");
-
-                    b.HasData(
-                        new
-                        {
-                            id = new Guid("d28888e9-2ba9-473a-a40f-e38cb54f9b01"),
-                            bandera = "ESP",
-                            nombre = "Spain"
-                        },
-                        new
-                        {
-                            id = new Guid("d28888e9-2ba9-473a-a40f-e38cb54f9b02"),
-                            bandera = "PLN",
-                            nombre = "Poland"
-                        },
-                        new
-                        {
-                            id = new Guid("d28888e9-2ba9-473a-a40f-e38cb54f9b03"),
-                            bandera = "FR",
-                            nombre = "France"
-                        });
                 });
 
             modelBuilder.Entity("Entidades.Entities.Usuario", b =>
@@ -125,7 +109,7 @@ namespace Context.Migrations
                     b.Property<DateTime?>("fechaNacimiento")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("idPais")
+                    b.Property<Guid?>("idPais")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("password")
@@ -134,33 +118,45 @@ namespace Context.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("usuarios");
+                    b.HasIndex("idPais");
 
-                    b.HasData(
-                        new
-                        {
-                            id = new Guid("d28888e9-2ba9-473a-a40f-e38cb54f9b31"),
-                            email = "aaaa@aaaa.com",
-                            fechaNacimiento = new DateTime(1980, 7, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            idPais = new Guid("d28888e9-2ba9-473a-a40f-e38cb54f9b06"),
-                            password = "123456"
-                        },
-                        new
-                        {
-                            id = new Guid("d28888e9-2ba9-473a-a40f-e38cb54f9b32"),
-                            email = "bbbb@bbbb.com",
-                            fechaNacimiento = new DateTime(1990, 7, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            idPais = new Guid("d28888e9-2ba9-473a-a40f-e38cb54f9b05"),
-                            password = "123456"
-                        },
-                        new
-                        {
-                            id = new Guid("d28888e9-2ba9-473a-a40f-e38cb54f9b33"),
-                            email = "cccc@cccc.com",
-                            fechaNacimiento = new DateTime(2000, 7, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            idPais = new Guid("d28888e9-2ba9-473a-a40f-e38cb54f9b04"),
-                            password = "123456"
-                        });
+                    b.ToTable("usuarios");
+                });
+
+            modelBuilder.Entity("Entidades.Entities.Historial", b =>
+                {
+                    b.HasOne("Entidades.Entities.Usuario", "usuario")
+                        .WithMany()
+                        .HasForeignKey("idUsuario")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Entidades.Entities.Moneda", "monedaOrigen")
+                        .WithMany()
+                        .HasForeignKey("moneda1")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Entidades.Entities.Moneda", "monedaDestino")
+                        .WithMany()
+                        .HasForeignKey("moneda2")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("monedaDestino");
+
+                    b.Navigation("monedaOrigen");
+
+                    b.Navigation("usuario");
+                });
+
+            modelBuilder.Entity("Entidades.Entities.Usuario", b =>
+                {
+                    b.HasOne("Entidades.Entities.Pais", "pais")
+                        .WithMany()
+                        .HasForeignKey("idPais");
+
+                    b.Navigation("pais");
                 });
 #pragma warning restore 612, 618
         }

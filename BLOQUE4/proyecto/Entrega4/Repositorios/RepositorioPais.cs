@@ -11,24 +11,24 @@ namespace Repositorios
         {
             _context = context;
         }
-        //public async Task<Pais> alta(Pais? pais)
-        //{
+        public async Task<Pais> alta(Pais? pais)
+        {
 
-        //    Pais existePais = _context.paises.FirstOrDefault(m => m.id == pais.id);
+            Pais existePais = _context.paises.FirstOrDefault(m => m.id == pais.id);
 
-        //    if (existePais != null)
-        //    {
-        //        existePais.id = pais.id;
-        //        _context.SaveChanges();
-        //    }
-        //    else
-        //    {
-        //        _context.Add(pais);
-        //        _context.SaveChanges();
-        //    }
+            if (existePais != null)
+            {
+                existePais.id = pais.id;
+                _context.SaveChanges();
+            }
+            else
+            {
+                _context.Add(pais);
+                _context.SaveChanges();
+            }
 
-        //    return pais;
-        //}
+            return pais;
+        }
 
 
         public async Task<Pais> obtenerPais(Guid id)

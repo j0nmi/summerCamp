@@ -36,6 +36,7 @@ namespace APIMoneda
                 jsonDeserializado = JsonConvert.DeserializeObject<Root>(responseData);
 
                 System.Reflection.PropertyInfo[] lista = ArrayJson_file(jsonDeserializado);
+
                 List<MonedaJson> lista_monedas = new List<MonedaJson>();
 
                 foreach (System.Reflection.PropertyInfo item in lista)

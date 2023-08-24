@@ -9,6 +9,7 @@
       "ConversoApi/1.0.0": {
         "dependencies": {
           "APIMoneda": "1.0.0",
+          "APIPaises": "1.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Context": "1.0.0",
           "Microsoft.AspNetCore.JsonPatch": "6.0.8",
@@ -716,6 +717,21 @@
           "APIMoneda.dll": {}
         }
       },
+      "APIPaises/1.0.0": {
+        "dependencies": {
+          "Context": "1.0.0",
+          "Entidades": "1.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Repositorios": "1.0.0",
+          "Serilog.AspNetCore": "6.0.0",
+          "Serilog.Sinks.Console": "4.1.0",
+          "Serilog.Sinks.File": "5.0.0"
+        },
+        "runtime": {
+          "APIPaises.dll": {}
+        }
+      },
       "Context/1.0.0": {
         "dependencies": {
           "Entidades": "1.0.0",
@@ -1244,6 +1260,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "APIMoneda/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "APIPaises/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

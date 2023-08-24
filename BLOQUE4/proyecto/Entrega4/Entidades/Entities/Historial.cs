@@ -11,17 +11,24 @@ namespace Entidades.Entities
         public Guid idUsuario { get; set; }
         [Required]
         public double cantidad { get; set; }
-
+        [ForeignKey("moneda1")]
         [Required]
-        public string monedaOrigen { get; set; }
-
+        public Moneda monedaOrigen { get; set; }
+        [ForeignKey("moneda2")]
         [Required]
-        public string monedaDestino { get; set; }
+        public Moneda monedaDestino { get; set; }
 
         public float? resultadoConversion { get; set; }
 
         [Required]
         public DateTime fechaConversion { get; set; }
-  
+
+
+        [ForeignKey("idUsuario")]
+        public Usuario usuario { get; set; }
+        
+        public Guid moneda1 { get; set; }
+        
+        public Guid moneda2 { get; set; }
     }
 }

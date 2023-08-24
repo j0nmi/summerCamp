@@ -1,5 +1,6 @@
 ﻿using Context;
 using Entidades.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Repositorios
 {
@@ -15,7 +16,7 @@ namespace Repositorios
         public async Task<Usuario> obtenerUsuario(Guid id)
         {
 
-            return _context.usuarios.FirstOrDefault(m => m.id == id);
+            return _context.usuarios.Include(p => p.pais).FirstOrDefault(m => m.id == id);
         }
 
         public async Task<int> guardarCambios()

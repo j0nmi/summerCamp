@@ -6,6 +6,6 @@ namespace Repositorios
     {
         Task<IEnumerable<Pais>> obtenerTodas();
         Task<Pais> obtenerPais(Guid id);
-        //Task<Pais> alta(Pais pais);
+        Task<Pais> alta(Pais pais);
     }
 }

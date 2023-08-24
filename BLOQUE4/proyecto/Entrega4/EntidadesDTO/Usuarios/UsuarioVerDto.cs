@@ -7,7 +7,7 @@ namespace EntidadesDTO.Usuarios
     {
         public Guid id { get; set; }
 
-        public Guid idPais { get; set; }
+        public string nombrePais { get; set; }
         public string email { get; set; }
 
         public DateTime? fechaNacimiento { get; set; }

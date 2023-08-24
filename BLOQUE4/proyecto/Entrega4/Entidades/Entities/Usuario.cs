@@ -8,7 +8,11 @@ namespace Entidades.Entities
         [Key]
         public Guid id { get; set; }
 
-        public Guid idPais { get; set; }
+        
+        public Guid? idPais { get; set; }
+
+        [ForeignKey("idPais")]
+        public Pais? pais { get; set; }
         [Required]
         public string email { get; set; }
 
@@ -16,6 +20,7 @@ namespace Entidades.Entities
 
         [Required]
         public string password { get; set; }
+
 
 
         public Usuario(string email, string password)

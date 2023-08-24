@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\APIMoneda\APIMoneda.csproj" />
+    <ProjectReference Include="..\APIPaises\APIPaises.csproj" />
     <ProjectReference Include="..\Context\Context.csproj" />
     <ProjectReference Include="..\Repositorios\Repositorios.csproj" />
   </ItemGroup>

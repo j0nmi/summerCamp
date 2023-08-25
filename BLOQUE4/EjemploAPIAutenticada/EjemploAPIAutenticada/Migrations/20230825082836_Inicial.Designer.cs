@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EjemploAPIAutenticada.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230824085942_Init")]
-    partial class Init
+    [Migration("20230825082836_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -43,8 +43,11 @@ namespace EjemploAPIAutenticada.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime>("FechaNacimiento")
+                    b.Property<DateTime?>("FechaNacimiento")
                         .HasColumnType("datetime2");
+
+                    b.Property<int?>("IdPais")
+                        .HasColumnType("int");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");

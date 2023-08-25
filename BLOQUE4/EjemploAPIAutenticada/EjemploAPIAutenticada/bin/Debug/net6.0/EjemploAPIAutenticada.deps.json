@@ -12,6 +12,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.21",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.21",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.21",
+          "Microsoft.Extensions.Identity.Core": "6.0.21",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {

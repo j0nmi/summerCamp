@@ -4,8 +4,8 @@ namespace EjemploAPIAutenticada.Seguridad
 {
     public class Usuario : IdentityUser
     {
-        public int Id { get; set; }
-        public DateTime FechaNacimiento { get; set; }
+        public int? IdPais { get; set; }
+        public DateTime? FechaNacimiento { get; set; }
     }
 
     public class Pais

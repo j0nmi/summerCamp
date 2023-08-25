@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
-using Repositorios;
 using Entidades.Entities;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using static APIPaises.FormatoJson;
+using Repositorios;
 
 namespace APIPaises
 {

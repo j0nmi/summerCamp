@@ -40,7 +40,7 @@ namespace Repositorios
             //Moneda monedaOrigen = await repositorioMonedas.obtenerMoneda(conversion.monedaOrigen);
             //Moneda monedaDestino = await repositorioMonedas.obtenerMoneda(conversion.monedaDestino);
 
-            var resultado = ((1 / monedaOrigen.factor) * monedaDestino.factor) * conversion.cantidad;
+            var resultado = 1 / monedaOrigen.factor * monedaDestino.factor * conversion.cantidad;
 
             if (resultado != null) listaHistorial.resultadoConversion = resultado;
             else listaHistorial.resultadoConversion = 0;

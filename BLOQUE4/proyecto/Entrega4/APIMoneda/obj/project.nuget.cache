@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ogWIEuF/86UplBg1dEoroLfxnrj9M659w34UU8KwED4tGM+vcN8PLvrxXS6fN17cM7w+nEt2RRNsl1ye56etRQ==",
+  "dgSpecHash": "tITRhPa64lAUqYqudU7nwPXV7Xdfm15XwK/xUJWhz36vcogODc1qqFd7KDj8tric25HolUjGxc3Y6D1FLzi14A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj",
+  "projectFilePath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pmpcurso1\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\pmpcurso1\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZIpuTwOEFaGkHguekMvH5uojC371ZfrCCl19lusz3kh61PpUD+2490Mm/MhbpWM07Ekekl2D5sxK3f9gGPfzGA==",
+  "dgSpecHash": "hmpzjNAWpNaqf3kaOBEYiQmHWwvZN0/fgrdYi/7XasAgCIprDnYwKfH++NUMz2DXBbe6BGZ5v7cAS4RjZuLSjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIPaises\\APIPaises.csproj",
+  "projectFilePath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIPaises\\APIPaises.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pmpcurso1\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\pmpcurso1\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

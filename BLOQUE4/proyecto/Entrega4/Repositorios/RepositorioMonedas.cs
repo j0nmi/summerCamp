@@ -13,17 +13,17 @@ namespace Repositorios
         }
         public async Task<Moneda> alta(Moneda? moneda)
         {
-
             Moneda existeMoneda = _context.monedas.FirstOrDefault(m => m.codigo == moneda.codigo);
 
             if (existeMoneda != null)
             {
-                existeMoneda.factor = moneda.factor;
+                existeMoneda.nombre = moneda.nombre;
             }
             else
             {
                 _context.Add(moneda);
             }
+
             _context.SaveChanges();
             return moneda;
         }

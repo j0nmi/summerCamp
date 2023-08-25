@@ -1247,6 +1247,26 @@
           "bin/placeholder/APIMoneda.dll": {}
         }
       },
+      "APIMonedaNombre/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Context": "1.0.0",
+          "Entidades": "1.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Repositorios": "1.0.0",
+          "Serilog.AspNetCore": "6.0.0",
+          "Serilog.Sinks.Console": "4.1.0",
+          "Serilog.Sinks.File": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/APIMonedaNombre.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/APIMonedaNombre.dll": {}
+        }
+      },
       "APIPaises/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3272,6 +3292,11 @@
       "path": "../APIMoneda/APIMoneda.csproj",
       "msbuildProject": "../APIMoneda/APIMoneda.csproj"
     },
+    "APIMonedaNombre/1.0.0": {
+      "type": "project",
+      "path": "../APIMonedaNombre/APIMonedaNombre.csproj",
+      "msbuildProject": "../APIMonedaNombre/APIMonedaNombre.csproj"
+    },
     "APIPaises/1.0.0": {
       "type": "project",
       "path": "../APIPaises/APIPaises.csproj",
@@ -3301,6 +3326,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "APIMoneda >= 1.0.0",
+      "APIMonedaNombre >= 1.0.0",
       "APIPaises >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Context >= 1.0.0",
@@ -3318,11 +3344,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\ConversoApi\\ConversoApi.csproj",
+      "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\ConversoApi.csproj",
       "projectName": "ConversoApi",
-      "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\ConversoApi\\ConversoApi.csproj",
+      "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\ConversoApi.csproj",
       "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\ConversoApi\\obj\\",
+      "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3339,17 +3365,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj": {
-              "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj"
+            "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMonedaNombre\\APIMonedaNombre.csproj": {
+              "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMonedaNombre\\APIMonedaNombre.csproj"
             },
-            "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIPaises\\APIPaises.csproj": {
-              "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIPaises\\APIPaises.csproj"
+            "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj": {
+              "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj"
             },
-            "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj": {
-              "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj"
+            "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIPaises\\APIPaises.csproj": {
+              "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIPaises\\APIPaises.csproj"
             },
-            "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj": {
-              "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj"
+            "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj": {
+              "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj"
+            },
+            "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj": {
+              "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj"
             }
           }
         }

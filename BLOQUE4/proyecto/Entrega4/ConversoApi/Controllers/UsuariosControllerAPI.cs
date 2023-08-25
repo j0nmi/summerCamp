@@ -1,11 +1,11 @@
 ﻿using Context;
 using Entidades.Entities;
 using Microsoft.AspNetCore.Mvc;
-using Repositorios;
 using AutoMapper;
 using EntidadesDTO.Usuarios;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Repositorios;
 
 namespace ConversoApi.Controllers
 {

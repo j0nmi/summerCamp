@@ -2609,11 +2609,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj",
+      "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj",
       "projectName": "APIMoneda",
-      "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj",
+      "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj",
       "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\obj\\",
+      "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2630,14 +2630,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj": {
-              "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj"
+            "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj": {
+              "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj"
             },
-            "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj"
+            "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj"
             },
-            "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj": {
-              "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj"
+            "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj": {
+              "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj"
             }
           }
         }

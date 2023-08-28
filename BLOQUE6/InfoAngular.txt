@@ -1,0 +1,45 @@
+Angular es un framework de desarrollo de aplicaciones web y móviles de código abierto basado en TypeScript. 
+Permite construir aplicaciones de una sola página (SPA) de manera eficiente y modular, siguiendo el patrón de arquitectura MVC (Modelo-Vista-Controlador).
+
+Componente en Angular:
+----------------------
+Un componente en Angular es una unidad básica de construcción de la interfaz de usuario. Representa una parte de la página que tiene su propia lógica y diseño. Un componente puede contener HTML, CSS y TypeScript, lo que permite crear funcionalidad reutilizable y modular. Los componentes trabajan juntos para formar una aplicación completa.
+
+Estructura de un Proyecto Angular Básico:
+Un proyecto Angular básico tendrá la siguiente estructura de archivos y directorios:
+
+src/
+|-- app/
+|   |-- app.component.ts
+|   |-- app.component.html
+|   |-- app.component.css
+|   |-- ...
+|-- assets/
+|-- environments/
+|-- index.html
+|-- ...
+
+src/: Este es el directorio principal de tu aplicación, donde se encuentra todo el código fuente.
+app/: En este directorio, encontrarás todos los componentes, servicios y otros archivos relacionados con la lógica de la aplicación.
+	app.component.ts: Este es el archivo TypeScript del componente raíz de la aplicación. Aquí definirás la lógica del componente.
+	app.component.html: El archivo HTML asociado al componente raíz. Define la estructura y contenido del componente.
+	app.component.css: El archivo CSS para estilizar el componente raíz.
+	...: Aquí colocarás otros componentes, servicios y cualquier otro archivo relacionado con la lógica de la aplicación.
+
+assets/: Este directorio almacena recursos estáticos como imágenes, archivos de estilo globales, etc.
+environments/: Aquí se encuentran archivos de configuración para diferentes entornos (por ejemplo, desarrollo y producción).
+index.html: Es el punto de entrada de la aplicación. Aquí se carga el primer componente de Angular.
+
+Cómo está estructurado Angular:
+-------------------------------
+Angular sigue una estructura modular y jerárquica que facilita la organización y mantenimiento de las aplicaciones.
+
+Módulos: Los módulos son contenedores que agrupan componentes, servicios y otros recursos relacionados. Ayudan a organizar y modularizar la aplicación.
+Componentes: Los componentes son las unidades fundamentales de la interfaz de usuario. Cada componente tiene su propia lógica, vista y estilos.
+Servicios: Los servicios son clases que proporcionan funcionalidad compartida entre componentes. Pueden contener lógica de negocio, comunicación con API, etc.
+Directivas: Las directivas son instrucciones en el DOM que indican a Angular cómo manipular el contenido.
+Rutas: Angular proporciona un enrutador que permite navegar entre diferentes vistas o componentes sin recargar la página.
+Inyección de Dependencias: Angular utiliza la inyección de dependencias para administrar la creación y el acceso a las instancias de clases.
+Ciclo de Vida: Los componentes tienen un ciclo de vida que abarca desde su creación hasta su destrucción. Esto permite ejecutar lógica en diferentes momentos del ciclo de vida.
+
+En resumen, Angular es un framework que fomenta la modularidad, la reutilización y el desarrollo eficiente de aplicaciones web y móviles mediante componentes, servicios y otros conceptos. La estructura de un proyecto Angular se basa en la organización jerárquica de componentes, módulos y servicios.

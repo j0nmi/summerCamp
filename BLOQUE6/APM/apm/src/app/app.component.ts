@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   <div>
     <h1>{{pageTitle}}</h1>
     <h3>Moneda base del conversor: {{codigoMonedaBase}}</h3>
-    <div>Este es mi primer componente en Angular.JS</div>
+    <pm-welcome></pm-welcome>
+    <br>
+    <pm-monedas></pm-monedas>
 </div>
   `
 
@@ -14,4 +16,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   pageTitle = 'Conversor de monedas ACME v.2023';
   codigoMonedaBase = 'EUR';
+  title = 'apm';
 }

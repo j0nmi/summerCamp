@@ -3,14 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+// Al pulsar TAB agrega el IMPORT automáticamente.
+import { WelcomeComponent } from 'home/welcome.component';
+import { MonedasComponent } from 'monedas/monedas.component';
+
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, WelcomeComponent, MonedasComponent],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
 })
+
+
 export class AppModule { }

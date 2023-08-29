@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'pm-root',
   template: `
   <div>
+  <pm-navbar></pm-navbar>
     <h1>{{pageTitle}}</h1>
     <h3>Moneda base del conversor: {{codigoMonedaBase}}</h3>
     <pm-welcome></pm-welcome>

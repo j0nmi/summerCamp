@@ -15,7 +15,7 @@ namespace EntidadesDTO.Monedas
         {
             get
             {
-                return $"{nombre} - {codigo} | {factor}";
+                return $"{codigo} - {nombre} | {factor}";
             }
         }
     }

@@ -1,6 +1,9 @@
 ﻿using Context;
 using Entidades.Entities;
-using EntidadesDTO.Conversor;
+using EntidadesDTO.Historial;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 
 namespace Repositorios
 {
@@ -15,9 +18,35 @@ namespace Repositorios
             this.repositorioMonedas = repositorioMonedas;
         }
 
+        public IEnumerable<HistorialProcedure> obtener10Primeras(Guid usuario)
+        {
+            IEnumerable<Historial> resultad = _context.historial.
+                FromSqlInterpolated($"EXECUTE dbo.Top10Historial {usuario}");
+
+            var query =
+                       from h in _context.historial
+                       join m1 in _context.monedas on h.moneda1 equals m1.id
+                       join m2 in _context.monedas on h.moneda2 equals m2.id
+                       join u in _context.usuarios on h.idUsuario equals u.id
+
+                       select new HistorialProcedure
+                       {
+                           id = h.id,
+                           email = u.email,
+                           moneda1 = m1.codigo,
+                           moneda2 = m2.codigo,
+                           resultadoConversion = h.resultadoConversion,
+                           fechaConversion = h.fechaConversion,
+                           cantidad = h.cantidad
+                       };
+
+           return query;
+        }
+
         public async Task<IEnumerable<Historial>> obtenerTodas(Guid usuario)
         {
             var resultad = _context.historial.Where(m => m.idUsuario == usuario);
+
             return resultad;
         }
 
@@ -40,7 +69,7 @@ namespace Repositorios
             //Moneda monedaOrigen = await repositorioMonedas.obtenerMoneda(conversion.monedaOrigen);
             //Moneda monedaDestino = await repositorioMonedas.obtenerMoneda(conversion.monedaDestino);
 
-            var resultado = 1 / monedaOrigen.factor * monedaDestino.factor * conversion.cantidad;
+            var resultado = ((1 / monedaOrigen.factor) * monedaDestino.factor) * conversion.cantidad;
 
             if (resultado != null) listaHistorial.resultadoConversion = resultado;
             else listaHistorial.resultadoConversion = 0;
@@ -51,11 +80,10 @@ namespace Repositorios
         }
         public async Task<string> VaciarHistorial(Guid usuario)
         {
-            var historialesUsuario = _context.historial.Where(h => h.idUsuario == usuario).ToList();
+            var parametros = new SqlParameter("@usuarioId", usuario);
+            await _context.Database.ExecuteSqlInterpolatedAsync($"EXEC dbo.BorrarHistorial {parametros}");
 
-            _context.historial.RemoveRange(historialesUsuario);
             _context.SaveChanges();
-
             return "Borrado";
         }
     }

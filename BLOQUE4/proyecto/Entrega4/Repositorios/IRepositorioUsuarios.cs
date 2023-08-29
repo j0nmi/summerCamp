@@ -6,5 +6,6 @@ namespace Repositorios
     {
         Task<Usuario> obtenerUsuario(Guid id);
         Task<int> guardarCambios();
+        Task<Usuario> alta(Usuario? usuario);
     }
 }

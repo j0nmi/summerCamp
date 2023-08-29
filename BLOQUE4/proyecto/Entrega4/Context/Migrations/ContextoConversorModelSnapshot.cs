@@ -77,23 +77,6 @@ namespace Context.Migrations
                     b.ToTable("monedas");
                 });
 
-            modelBuilder.Entity("Entidades.Entities.MonedaNombre", b =>
-                {
-                    b.Property<Guid>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("codigo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("descripcion")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("id");
-
-                    b.ToTable("monedasNombre");
-                });
-
             modelBuilder.Entity("Entidades.Entities.Pais", b =>
                 {
                     b.Property<Guid>("id")

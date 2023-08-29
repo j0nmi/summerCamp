@@ -1,11 +1,11 @@
 ﻿using Context;
 using Entidades.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Repositorios;
 using AutoMapper;
 using EntidadesDTO.Usuarios;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Repositorios;
 
 namespace ConversoApi.Controllers
 {
@@ -54,6 +54,18 @@ namespace ConversoApi.Controllers
             _mapper.Map(usuarioDto, usuario);
 
             await repositorioUsuarios.guardarCambios();
+
+            return NoContent();
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<UsuarioVerDto>> CreateMoneda([FromBody] UsuarioActualizarDto usuario)
+        {
+            var usuarioEntidad = _mapper.Map<Usuario>(usuario);
+
+            await repositorioUsuarios.alta(usuarioEntidad);
+
+            var usuarioToReturn = _mapper.Map<UsuarioVerDto>(usuarioEntidad);
 
             return NoContent();
         }

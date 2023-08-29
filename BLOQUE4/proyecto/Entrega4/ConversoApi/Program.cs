@@ -1,11 +1,10 @@
 using Context;
+using Repositorios;
 using Microsoft.EntityFrameworkCore;
 using APIMoneda;
 using APIPaises;
-using APIMonedaNombre;
 using Serilog;
 using Newtonsoft.Json.Serialization;
-using Repositorios;
 
 namespace ConversoApi
 {
@@ -42,13 +41,11 @@ namespace ConversoApi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddTransient<IRepositorioMonedas, RepositorioMonedas>();
-            builder.Services.AddTransient<IRepositorioMonedasNombre, RepositorioMonedasNombre>();
             builder.Services.AddTransient<IRepositorioPais, RepositorioPais>();
             builder.Services.AddTransient<IRepositorioUsuarios, RepositorioUsuarios>();
             builder.Services.AddTransient<IRepositorioHistorial, RepositorioHistorial>();   
             builder.Services.AddTransient<IArrayJson,ArrayJson>();
             builder.Services.AddTransient<IArrayJsonP,ArrayJsonP>();
-            builder.Services.AddTransient<IArrayJsonN,ArrayJsonN>();
             
 
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -60,7 +57,6 @@ namespace ConversoApi
             // TIMER PARA OBTENER LAS MONEDAS
             builder.Services.AddHostedService<TimedHostedService>();
             builder.Services.AddHostedService<TimedHostedServiceP>();
-            builder.Services.AddHostedService<TimedHostedServiceN>();
 
             var app = builder.Build();
 

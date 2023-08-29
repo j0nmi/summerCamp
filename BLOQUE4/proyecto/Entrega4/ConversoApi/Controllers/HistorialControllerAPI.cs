@@ -1,15 +1,9 @@
 ﻿using Context;
 using Entidades.Entities;
-using EntidadesDTO.Monedas;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Repositorios;
 using AutoMapper;
 using EntidadesDTO.Historial;
-using Microsoft.Data.SqlClient;
-using System.Data;
-using Repositorios;
-using Repositorios;
 
 namespace ConversoApi.Controllers
 {
@@ -32,9 +26,12 @@ namespace ConversoApi.Controllers
         [HttpGet]
         public async Task<ActionResult<List<HistorialVerDto>>> MostrarHistorial(Guid usuario)
         {
-            var listaHistorial = _mapper.Map<List<HistorialVerDto>>(await repositorioHistorial.obtenerTodas(usuario));
+        
+            var listaHistorial2 = repositorioHistorial.obtener10Primeras(usuario);
 
-            return Ok(listaHistorial.ToList()) ;
+            var listaHistorial = _mapper.Map<List<HistorialVerDto>>(listaHistorial2);
+
+            return Ok(listaHistorial) ;
         }
 
         //Borrar si el usuario lo requiere
@@ -46,9 +43,8 @@ namespace ConversoApi.Controllers
             {
                 return NotFound();
             }
-
             await repositorioHistorial.VaciarHistorial(usuario);
-            return Ok(historialUsuario); 
+            return NoContent(); 
         }
     }
 }

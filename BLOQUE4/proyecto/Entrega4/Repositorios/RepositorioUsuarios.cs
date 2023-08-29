@@ -23,5 +23,21 @@ namespace Repositorios
         {
             return _context.SaveChanges();
         }
+
+        public async Task<Usuario> alta(Usuario? usuario)
+        {
+            Usuario existeUsuario = _context.usuarios.FirstOrDefault(m => m.id == usuario.id);
+            if (existeUsuario != null)
+            {
+                existeUsuario.id = usuario.id;
+                _context.SaveChanges();
+            }
+            else
+            {
+                _context.Add(usuario);
+                _context.SaveChanges();
+            }
+            return usuario;
+        }
     }
 }

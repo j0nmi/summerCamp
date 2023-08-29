@@ -9,9 +9,9 @@ namespace EntidadesDTO.Historial
         public Guid idUsuario { get; set; }
         public double cantidad { get; set; }
 
-        public string monedaOrigen { get; set; }
+        public string moneda1 { get; set; }
 
-        public string monedaDestino { get; set; }
+        public string moneda2 { get; set; }
 
         public float? resultadoConversion { get; set; }
 

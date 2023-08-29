@@ -17,8 +17,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntidadesDTO", "EntidadesDT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIPaises", "APIPaises\APIPaises.csproj", "{DF9017F6-5E2C-4A5C-9528-F5EB3945670A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIMonedaNombre", "APIMonedaNombre\APIMonedaNombre.csproj", "{3B63B120-B6C3-4B80-88E7-9F3644EC0C59}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,10 +51,6 @@ Global
 		{DF9017F6-5E2C-4A5C-9528-F5EB3945670A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF9017F6-5E2C-4A5C-9528-F5EB3945670A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF9017F6-5E2C-4A5C-9528-F5EB3945670A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B63B120-B6C3-4B80-88E7-9F3644EC0C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B63B120-B6C3-4B80-88E7-9F3644EC0C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B63B120-B6C3-4B80-88E7-9F3644EC0C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B63B120-B6C3-4B80-88E7-9F3644EC0C59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

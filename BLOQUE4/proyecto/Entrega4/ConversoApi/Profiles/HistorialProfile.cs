@@ -8,8 +8,10 @@ public class HistorialProfile : Profile
 {
     public HistorialProfile()
     {
- 
+
         CreateMap<Historial, HistorialVerDto>();
         CreateMap<Historial, HistorialActualizarDto>();
+
+        CreateMap<HistorialProcedure, HistorialVerDto>();
     }
 }

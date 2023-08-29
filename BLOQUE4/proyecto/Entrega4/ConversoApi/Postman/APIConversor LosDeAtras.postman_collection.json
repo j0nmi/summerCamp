@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "cb453e0e-e194-429e-9e89-adf45132b7c0",
+		"_postman_id": "bf866daa-d0ac-467d-af17-37371cd3992d",
 		"name": "APIConversor LosDeAtras",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "29158506"
+		"_exporter_id": "28928493"
 	},
 	"item": [
 		{
@@ -150,6 +150,36 @@
 										"api",
 										"usuarios",
 										"d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST Usuario",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\" : \"f66bc9c1-6b8e-46da-8a2c-08dba4965c05\",\r\n  \"idPais\": \"f66bc9c1-6b8e-46da-8a2c-08dba4965c65\",\r\n  \"email\": \"string\",\r\n  \"fechaNacimiento\": \"2023-08-24T11:50:33.627Z\",\r\n  \"password\": \"string\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:{{portNumber}}/api/usuarios/",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "{{portNumber}}",
+									"path": [
+										"api",
+										"usuarios",
+										""
 									]
 								}
 							},
@@ -398,6 +428,36 @@
 										"api",
 										"usuarios",
 										"d28888e9-2ba9-473a-a40f-e38cb54f9b31"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST Usuario",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\" : \"f66bc9c1-6b8e-46da-8a2c-08dba4965c05\",\r\n  \"idPais\": \"f66bc9c1-6b8e-46da-8a2c-08dba4965c65\",\r\n  \"email\": \"string\",\r\n  \"fechaNacimiento\": \"2023-08-24T11:50:33.627Z\",\r\n  \"password\": \"string\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://conversorwebapi.azurewebsites.net/api/usuarios",
+									"protocol": "https",
+									"host": [
+										"conversorwebapi",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"api",
+										"usuarios"
 									]
 								}
 							},

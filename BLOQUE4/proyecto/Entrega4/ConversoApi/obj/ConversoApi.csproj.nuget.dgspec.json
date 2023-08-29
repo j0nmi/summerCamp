@@ -1,104 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\ConversoApi.csproj": {}
+    "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\ConversoApi\\ConversoApi.csproj": {}
   },
   "projects": {
-    "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMonedaNombre\\APIMonedaNombre.csproj": {
+    "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMonedaNombre\\APIMonedaNombre.csproj",
-        "projectName": "APIMonedaNombre",
-        "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMonedaNombre\\APIMonedaNombre.csproj",
-        "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMonedaNombre\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj"
-              },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj"
-              },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.Extensions.Hosting.Abstractions": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "Serilog.AspNetCore": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Serilog.Sinks.Console": {
-              "target": "Package",
-              "version": "[4.1.0, )"
-            },
-            "Serilog.Sinks.File": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj",
+        "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj",
         "projectName": "APIMoneda",
-        "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj",
+        "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj",
         "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\obj\\",
+        "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -115,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj"
               },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj"
               },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj"
               }
             }
           }
@@ -178,14 +91,14 @@
         }
       }
     },
-    "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIPaises\\APIPaises.csproj": {
+    "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIPaises\\APIPaises.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIPaises\\APIPaises.csproj",
+        "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIPaises\\APIPaises.csproj",
         "projectName": "APIPaises",
-        "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIPaises\\APIPaises.csproj",
+        "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIPaises\\APIPaises.csproj",
         "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIPaises\\obj\\",
+        "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIPaises\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -202,14 +115,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj"
               },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj"
               },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj"
               }
             }
           }
@@ -265,14 +178,14 @@
         }
       }
     },
-    "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj": {
+    "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj",
+        "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj",
         "projectName": "Context",
-        "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj",
+        "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj",
         "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\obj\\",
+        "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -289,8 +202,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -336,14 +249,14 @@
         }
       }
     },
-    "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\ConversoApi.csproj": {
+    "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\ConversoApi\\ConversoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\ConversoApi.csproj",
+        "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\ConversoApi\\ConversoApi.csproj",
         "projectName": "ConversoApi",
-        "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\ConversoApi.csproj",
+        "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\ConversoApi\\ConversoApi.csproj",
         "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\ConversoApi\\obj\\",
+        "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\ConversoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -360,20 +273,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMonedaNombre\\APIMonedaNombre.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMonedaNombre\\APIMonedaNombre.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIMoneda\\APIMoneda.csproj"
               },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIMoneda\\APIMoneda.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIPaises\\APIPaises.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\APIPaises\\APIPaises.csproj"
               },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIPaises\\APIPaises.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\APIPaises\\APIPaises.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj"
               },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj"
-              },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj"
               }
             }
           }
@@ -438,14 +348,14 @@
         }
       }
     },
-    "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj": {
+    "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj",
+        "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj",
         "projectName": "EntidadesDTO",
-        "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj",
+        "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj",
         "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\EntidadesDTO\\obj\\",
+        "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\EntidadesDTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -493,14 +403,14 @@
         }
       }
     },
-    "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -548,14 +458,14 @@
         }
       }
     },
-    "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj": {
+    "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj",
+        "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj",
         "projectName": "Repositorios",
-        "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\Repositorios.csproj",
+        "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\Repositorios.csproj",
         "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Repositorios\\obj\\",
+        "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Repositorios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pmpcurso1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -572,14 +482,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Context\\Context.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Context\\Context.csproj"
               },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\EntidadesDTO\\EntidadesDTO.csproj"
               },
-              "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Curso\\summercamp\\BLOQUE4\\proyecto\\Entrega4\\Entidades\\Entidades.csproj"
+              "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\proyrecyto\\conversor_losdeatras\\Entrega4\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -593,6 +503,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

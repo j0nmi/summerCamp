@@ -1,0 +1,1136 @@
+[
+    {
+        "id": "9614765b-0dbb-462f-a6b7-0045843be7b3",
+        "nombre": null,
+        "codigo": "MRU",
+        "factor": 37.9749,
+        "resumenMoneda": " - MRU | 37.9749"
+    },
+    {
+        "id": "566a0962-834b-4510-ae4f-019ae1a0dac8",
+        "nombre": "Macanese Pataca",
+        "codigo": "MOP",
+        "factor": 8.0814,
+        "resumenMoneda": "Macanese Pataca - MOP | 8.0814"
+    },
+    {
+        "id": "2ccff5c5-3d62-4ce2-9d39-04e8bb9ca88e",
+        "nombre": "Guernsey Pound",
+        "codigo": "GGP",
+        "factor": 0.7936,
+        "resumenMoneda": "Guernsey Pound - GGP | 0.7936"
+    },
+    {
+        "id": "4db25f0b-13e0-45c0-89eb-072d8e62b51f",
+        "nombre": "South African Rand",
+        "codigo": "ZAR",
+        "factor": 18.5922,
+        "resumenMoneda": "South African Rand - ZAR | 18.5922"
+    },
+    {
+        "id": "33cb7265-533d-4b41-8de6-0984f54237eb",
+        "nombre": "Chinese Yuan",
+        "codigo": "CNY",
+        "factor": 7.2925,
+        "resumenMoneda": "Chinese Yuan - CNY | 7.2925"
+    },
+    {
+        "id": "ab1ce79c-d534-4abc-8558-0c0626b85321",
+        "nombre": "Nigerian Naira",
+        "codigo": "NGN",
+        "factor": 763.8611,
+        "resumenMoneda": "Nigerian Naira - NGN | 763.8611"
+    },
+    {
+        "id": "633e35cb-7456-496c-9f5e-0d267a82ff8d",
+        "nombre": "Jersey Pound",
+        "codigo": "JEP",
+        "factor": 0.7936,
+        "resumenMoneda": "Jersey Pound - JEP | 0.7936"
+    },
+    {
+        "id": "83df2f59-6da0-4b57-a3dd-0d4872c387a7",
+        "nombre": "Netherlands Antillean Guilder",
+        "codigo": "ANG",
+        "factor": 1.79,
+        "resumenMoneda": "Netherlands Antillean Guilder - ANG | 1.79"
+    },
+    {
+        "id": "992d9d24-86e2-4292-82ca-108544fa0653",
+        "nombre": "Chilean Peso",
+        "codigo": "CLP",
+        "factor": 845.6805,
+        "resumenMoneda": "Chilean Peso - CLP | 845.6805"
+    },
+    {
+        "id": "e19402c9-b3e2-442c-be98-11316c0f2bc9",
+        "nombre": "Colombian Peso",
+        "codigo": "COP",
+        "factor": 4118.451,
+        "resumenMoneda": "Colombian Peso - COP | 4118.451"
+    },
+    {
+        "id": "10f081ba-fd42-44a8-b71e-11b8b77ee2fd",
+        "nombre": "Namibian Dollar",
+        "codigo": "NAD",
+        "factor": 18.5982,
+        "resumenMoneda": "Namibian Dollar - NAD | 18.5982"
+    },
+    {
+        "id": "cd3d629a-1135-450c-9de9-150ba2f310e4",
+        "nombre": "Norwegian Krone",
+        "codigo": "NOK",
+        "factor": 10.7137,
+        "resumenMoneda": "Norwegian Krone - NOK | 10.7137"
+    },
+    {
+        "id": "dbdb85d9-9e09-45bc-b441-1581b0df19df",
+        "nombre": "Somali Shilling",
+        "codigo": "SOS",
+        "factor": 569.4842,
+        "resumenMoneda": "Somali Shilling - SOS | 569.4842"
+    },
+    {
+        "id": "863ba29f-2a71-4552-99b3-16fb6b4ae1e7",
+        "nombre": "Ugandan Shilling",
+        "codigo": "UGX",
+        "factor": 3711.275,
+        "resumenMoneda": "Ugandan Shilling - UGX | 3711.275"
+    },
+    {
+        "id": "9d04ac75-ab1e-407a-b6cf-18eb0de6fa30",
+        "nombre": "Malagasy Ariary",
+        "codigo": "MGA",
+        "factor": 4483.5317,
+        "resumenMoneda": "Malagasy Ariary - MGA | 4483.5317"
+    },
+    {
+        "id": "efac4908-a9bb-4673-969e-1a5c219840b1",
+        "nombre": "CFA Franc BCEAO",
+        "codigo": "XOF",
+        "factor": 606.5919,
+        "resumenMoneda": "CFA Franc BCEAO - XOF | 606.5919"
+    },
+    {
+        "id": "17d0ae5e-0e45-4bc4-a6da-1e0bfee52c27",
+        "nombre": "Comorian Franc",
+        "codigo": "KMF",
+        "factor": 454.9439,
+        "resumenMoneda": "Comorian Franc - KMF | 454.9439"
+    },
+    {
+        "id": "27bbcd28-1abe-4c2e-9b56-291d55abdb4f",
+        "nombre": "Yemeni Rial",
+        "codigo": "YER",
+        "factor": 250.1591,
+        "resumenMoneda": "Yemeni Rial - YER | 250.1591"
+    },
+    {
+        "id": "c4091b23-a376-475b-956e-2a325222e912",
+        "nombre": "Surinamese Dollar",
+        "codigo": "SRD",
+        "factor": 38.1117,
+        "resumenMoneda": "Surinamese Dollar - SRD | 38.1117"
+    },
+    {
+        "id": "8bdaaae0-8faf-435c-86d2-2b9a11a9a76e",
+        "nombre": "Bulgarian Lev",
+        "codigo": "BGN",
+        "factor": 1.8087,
+        "resumenMoneda": "Bulgarian Lev - BGN | 1.8087"
+    },
+    {
+        "id": "200661fa-3ef3-4bbb-8397-2c30d7764b52",
+        "nombre": "Lesotho Loti",
+        "codigo": "LSL",
+        "factor": 18.5982,
+        "resumenMoneda": "Lesotho Loti - LSL | 18.5982"
+    },
+    {
+        "id": "fd1d1e9e-4964-4513-a28b-2c65bf6af904",
+        "nombre": "Guyanaese Dollar",
+        "codigo": "GYD",
+        "factor": 209.1609,
+        "resumenMoneda": "Guyanaese Dollar - GYD | 209.1609"
+    },
+    {
+        "id": "71ebcdce-62a7-4798-a21a-2cf639dd9235",
+        "nombre": "Sri Lankan Rupee",
+        "codigo": "LKR",
+        "factor": 323.3206,
+        "resumenMoneda": "Sri Lankan Rupee - LKR | 323.3206"
+    },
+    {
+        "id": "3073bb3e-fae0-4c2e-aee6-2d6b3f78ace6",
+        "nombre": "Algerian Dinar",
+        "codigo": "DZD",
+        "factor": 136.7952,
+        "resumenMoneda": "Algerian Dinar - DZD | 136.7952"
+    },
+    {
+        "id": "6027d95d-77ea-4d7d-8755-2e2870f4a8e1",
+        "nombre": "Angolan Kwanza",
+        "codigo": "AOA",
+        "factor": 833.5239,
+        "resumenMoneda": "Angolan Kwanza - AOA | 833.5239"
+    },
+    {
+        "id": "2a4f9ca8-3750-45e8-b84e-2feab1a4657c",
+        "nombre": "Euro",
+        "codigo": "EUR",
+        "factor": 0.9248,
+        "resumenMoneda": "Euro - EUR | 0.9248"
+    },
+    {
+        "id": "32f76b22-1136-428e-98ab-3136928db024",
+        "nombre": "Costa Rican Colón",
+        "codigo": "CRC",
+        "factor": 539.7739,
+        "resumenMoneda": "Costa Rican Colón - CRC | 539.7739"
+    },
+    {
+        "id": "58040f05-b6ee-44d5-9251-356b249b6757",
+        "nombre": "Iranian Rial",
+        "codigo": "IRR",
+        "factor": 41948.703,
+        "resumenMoneda": "Iranian Rial - IRR | 41948.703"
+    },
+    {
+        "id": "762ae3fe-bc22-4ce2-9e15-38f864079ace",
+        "nombre": null,
+        "codigo": "KID",
+        "factor": 1.5563,
+        "resumenMoneda": " - KID | 1.5563"
+    },
+    {
+        "id": "9e6f5a8e-f43a-4d84-ad71-3e2a8a8cc828",
+        "nombre": "Bolivian Boliviano",
+        "codigo": "BOB",
+        "factor": 6.9207,
+        "resumenMoneda": "Bolivian Boliviano - BOB | 6.9207"
+    },
+    {
+        "id": "bc9c72a4-793a-43f4-ab79-3e8fac69e8f0",
+        "nombre": "Vanuatu Vatu",
+        "codigo": "VUV",
+        "factor": 121.6658,
+        "resumenMoneda": "Vanuatu Vatu - VUV | 121.6658"
+    },
+    {
+        "id": "43c3fd32-fd8f-401c-9007-41738d5bca1e",
+        "nombre": "Afghan Afghani",
+        "codigo": "AFN",
+        "factor": 83.0826,
+        "resumenMoneda": "Afghan Afghani - AFN | 83.0826"
+    },
+    {
+        "id": "dec690b7-9f1a-4e42-9ea1-418bd40eebae",
+        "nombre": "Polish Zloty",
+        "codigo": "PLN",
+        "factor": 4.134,
+        "resumenMoneda": "Polish Zloty - PLN | 4.134"
+    },
+    {
+        "id": "41782757-7af7-498b-b3da-460b61026427",
+        "nombre": "Canadian Dollar",
+        "codigo": "CAD",
+        "factor": 1.3593,
+        "resumenMoneda": "Canadian Dollar - CAD | 1.3593"
+    },
+    {
+        "id": "9cf211dc-8d4c-46a6-808b-47095a0f988d",
+        "nombre": null,
+        "codigo": "STN",
+        "factor": 22.6562,
+        "resumenMoneda": " - STN | 22.6562"
+    },
+    {
+        "id": "c1f07067-2bfc-48b2-a9ad-491b6af2cf33",
+        "nombre": "Libyan Dinar",
+        "codigo": "LYD",
+        "factor": 4.8194,
+        "resumenMoneda": "Libyan Dinar - LYD | 4.8194"
+    },
+    {
+        "id": "eacf4299-082b-4ca4-89ff-4d88190e9492",
+        "nombre": "Azerbaijani Manat",
+        "codigo": "AZN",
+        "factor": 1.6995,
+        "resumenMoneda": "Azerbaijani Manat - AZN | 1.6995"
+    },
+    {
+        "id": "9268389c-f7f6-4cdf-a97e-4e375399143b",
+        "nombre": "Israeli New Sheqel",
+        "codigo": "ILS",
+        "factor": 3.8004,
+        "resumenMoneda": "Israeli New Sheqel - ILS | 3.8004"
+    },
+    {
+        "id": "56106c55-3ea5-41c3-84c8-4e67a836eb1c",
+        "nombre": "Argentine Peso",
+        "codigo": "ARS",
+        "factor": 349.99,
+        "resumenMoneda": "Argentine Peso - ARS | 349.99"
+    },
+    {
+        "id": "59cc5dba-9422-4fa9-8ddf-4f7de070e3c8",
+        "nombre": "Belize Dollar",
+        "codigo": "BZD",
+        "factor": 2,
+        "resumenMoneda": "Belize Dollar - BZD | 2"
+    },
+    {
+        "id": "25587ad4-bc33-415d-9c48-5117035099e2",
+        "nombre": "Cape Verdean Escudo",
+        "codigo": "CVE",
+        "factor": 101.9668,
+        "resumenMoneda": "Cape Verdean Escudo - CVE | 101.9668"
+    },
+    {
+        "id": "c5b3c755-abcf-4af9-bc43-5137f13f1a25",
+        "nombre": "Bangladeshi Taka",
+        "codigo": "BDT",
+        "factor": 109.2655,
+        "resumenMoneda": "Bangladeshi Taka - BDT | 109.2655"
+    },
+    {
+        "id": "9675c4dd-52c0-4224-ad7a-52a2886994d9",
+        "nombre": "Tanzanian Shilling",
+        "codigo": "TZS",
+        "factor": 2505.4644,
+        "resumenMoneda": "Tanzanian Shilling - TZS | 2505.4644"
+    },
+    {
+        "id": "104d63b5-8326-4b1b-9af1-538ae9fe00fb",
+        "nombre": "Jordanian Dinar",
+        "codigo": "JOD",
+        "factor": 0.709,
+        "resumenMoneda": "Jordanian Dinar - JOD | 0.709"
+    },
+    {
+        "id": "30d97947-6167-4e30-8e5a-53a27e33d3ba",
+        "nombre": "Icelandic Króna",
+        "codigo": "ISK",
+        "factor": 131.6872,
+        "resumenMoneda": "Icelandic Króna - ISK | 131.6872"
+    },
+    {
+        "id": "fbb310b7-e78f-4e08-b40d-5611f1051c61",
+        "nombre": "Omani Rial",
+        "codigo": "OMR",
+        "factor": 0.3845,
+        "resumenMoneda": "Omani Rial - OMR | 0.3845"
+    },
+    {
+        "id": "6c0c6b83-3b61-4569-a434-5755f4f130a1",
+        "nombre": "Romanian Leu",
+        "codigo": "RON",
+        "factor": 4.5701,
+        "resumenMoneda": "Romanian Leu - RON | 4.5701"
+    },
+    {
+        "id": "493e7284-f0b2-49c3-b19c-591e1e39085a",
+        "nombre": "Moldovan Leu",
+        "codigo": "MDL",
+        "factor": 17.8173,
+        "resumenMoneda": "Moldovan Leu - MDL | 17.8173"
+    },
+    {
+        "id": "c5ab68b4-c842-4719-a45f-5953f6bb5134",
+        "nombre": "Czech Republic Koruna",
+        "codigo": "CZK",
+        "factor": 22.3291,
+        "resumenMoneda": "Czech Republic Koruna - CZK | 22.3291"
+    },
+    {
+        "id": "eba222ed-49a6-43b1-8f34-5984dd203f3f",
+        "nombre": "East Caribbean Dollar",
+        "codigo": "XCD",
+        "factor": 2.7,
+        "resumenMoneda": "East Caribbean Dollar - XCD | 2.7"
+    },
+    {
+        "id": "9f523dfd-ea88-48e4-a6e5-5b316a102e72",
+        "nombre": "Malaysian Ringgit",
+        "codigo": "MYR",
+        "factor": 4.6542,
+        "resumenMoneda": "Malaysian Ringgit - MYR | 4.6542"
+    },
+    {
+        "id": "08a32c0c-22d9-49c3-996d-5bebcd71e516",
+        "nombre": "Manx pound",
+        "codigo": "IMP",
+        "factor": 0.7936,
+        "resumenMoneda": "Manx pound - IMP | 0.7936"
+    },
+    {
+        "id": "3091fb93-cc3f-423c-832e-5f4947d4d7c2",
+        "nombre": "Gambian Dalasi",
+        "codigo": "GMD",
+        "factor": 63.701,
+        "resumenMoneda": "Gambian Dalasi - GMD | 63.701"
+    },
+    {
+        "id": "7c81c8b9-c5b6-4a77-9166-5ffe56422db4",
+        "nombre": "Vietnamese Dong",
+        "codigo": "VND",
+        "factor": 24109.168,
+        "resumenMoneda": "Vietnamese Dong - VND | 24109.168"
+    },
+    {
+        "id": "08a6c175-d2b0-4622-8669-606f7e3c8548",
+        "nombre": "New Zealand Dollar",
+        "codigo": "NZD",
+        "factor": 1.6922,
+        "resumenMoneda": "New Zealand Dollar - NZD | 1.6922"
+    },
+    {
+        "id": "54966e53-8216-4f5c-8e07-6073b4f7423f",
+        "nombre": "Kuwaiti Dinar",
+        "codigo": "KWD",
+        "factor": 0.3084,
+        "resumenMoneda": "Kuwaiti Dinar - KWD | 0.3084"
+    },
+    {
+        "id": "bb39a4d4-72af-4fd2-9d66-622a0897470c",
+        "nombre": "Nepalese Rupee",
+        "codigo": "NPR",
+        "factor": 132.2543,
+        "resumenMoneda": "Nepalese Rupee - NPR | 132.2543"
+    },
+    {
+        "id": "551c9f41-8648-41f7-bbed-62f9fd87ce09",
+        "nombre": "Dominican Peso",
+        "codigo": "DOP",
+        "factor": 56.7548,
+        "resumenMoneda": "Dominican Peso - DOP | 56.7548"
+    },
+    {
+        "id": "4327cec8-1818-43d4-832a-63ff0f05b816",
+        "nombre": "Honduran Lempira",
+        "codigo": "HNL",
+        "factor": 24.614,
+        "resumenMoneda": "Honduran Lempira - HNL | 24.614"
+    },
+    {
+        "id": "39cc9d4a-85be-46ae-8d74-6639eefa0542",
+        "nombre": "Peruvian Nuevo Sol",
+        "codigo": "PEN",
+        "factor": 3.6947,
+        "resumenMoneda": "Peruvian Nuevo Sol - PEN | 3.6947"
+    },
+    {
+        "id": "d699bd82-1c83-4a3d-ac88-66e9c17e73d3",
+        "nombre": "Turkmenistani Manat",
+        "codigo": "TMT",
+        "factor": 3.4993,
+        "resumenMoneda": "Turkmenistani Manat - TMT | 3.4993"
+    },
+    {
+        "id": "755860c6-d985-45e9-a7d7-66f8845fae30",
+        "nombre": "Sovereign Bolivar",
+        "codigo": "VES",
+        "factor": 32.4371,
+        "resumenMoneda": "Sovereign Bolivar - VES | 32.4371"
+    },
+    {
+        "id": "97bf293d-e122-4837-a400-67c443039f87",
+        "nombre": "Singapore Dollar",
+        "codigo": "SGD",
+        "factor": 1.3559,
+        "resumenMoneda": "Singapore Dollar - SGD | 1.3559"
+    },
+    {
+        "id": "2d4f2c70-e90b-4239-98c9-6ac3877a78f4",
+        "nombre": "United States Dollar",
+        "codigo": "USD",
+        "factor": 1,
+        "resumenMoneda": "United States Dollar - USD | 1"
+    },
+    {
+        "id": "e208597f-0582-41f9-8f02-6bdbb175fade",
+        "nombre": "New Taiwan Dollar",
+        "codigo": "TWD",
+        "factor": 31.8538,
+        "resumenMoneda": "New Taiwan Dollar - TWD | 31.8538"
+    },
+    {
+        "id": "9c23ce96-2659-43c9-9f34-7093c929100a",
+        "nombre": "Tajikistani Somoni",
+        "codigo": "TJS",
+        "factor": 10.931,
+        "resumenMoneda": "Tajikistani Somoni - TJS | 10.931"
+    },
+    {
+        "id": "efbeefbf-f074-4e93-9f25-7118f486ebc7",
+        "nombre": "Trinidad and Tobago Dollar",
+        "codigo": "TTD",
+        "factor": 6.7734,
+        "resumenMoneda": "Trinidad and Tobago Dollar - TTD | 6.7734"
+    },
+    {
+        "id": "fee8daf5-d32e-43fb-928e-73bc04950f5c",
+        "nombre": "Danish Krone",
+        "codigo": "DKK",
+        "factor": 6.8935,
+        "resumenMoneda": "Danish Krone - DKK | 6.8935"
+    },
+    {
+        "id": "896259c7-7050-4500-b973-7606aa23e6ba",
+        "nombre": "Djiboutian Franc",
+        "codigo": "DJF",
+        "factor": 177.721,
+        "resumenMoneda": "Djiboutian Franc - DJF | 177.721"
+    },
+    {
+        "id": "4016606e-8272-48c2-bb76-796830175597",
+        "nombre": "Macedonian Denar",
+        "codigo": "MKD",
+        "factor": 56.8393,
+        "resumenMoneda": "Macedonian Denar - MKD | 56.8393"
+    },
+    {
+        "id": "85a6e89a-c981-4adf-911c-79d288e2546e",
+        "nombre": "Bhutanese Ngultrum",
+        "codigo": "BTN",
+        "factor": 82.659,
+        "resumenMoneda": "Bhutanese Ngultrum - BTN | 82.659"
+    },
+    {
+        "id": "cf611579-88df-4139-96e7-79d7973c509b",
+        "nombre": "New Belarusian Ruble",
+        "codigo": "BYN",
+        "factor": 3.1395,
+        "resumenMoneda": "New Belarusian Ruble - BYN | 3.1395"
+    },
+    {
+        "id": "c009e9ef-26fb-49aa-b2b8-7ae46926c200",
+        "nombre": "Kazakhstani Tenge",
+        "codigo": "KZT",
+        "factor": 464.6168,
+        "resumenMoneda": "Kazakhstani Tenge - KZT | 464.6168"
+    },
+    {
+        "id": "179755f8-5a16-4b05-9476-7f3793968f0c",
+        "nombre": "Swazi Lilangeni",
+        "codigo": "SZL",
+        "factor": 18.5982,
+        "resumenMoneda": "Swazi Lilangeni - SZL | 18.5982"
+    },
+    {
+        "id": "190b1611-4a95-4d76-b24f-80da0054cc96",
+        "nombre": "Turkish Lira",
+        "codigo": "TRY",
+        "factor": 26.5296,
+        "resumenMoneda": "Turkish Lira - TRY | 26.5296"
+    },
+    {
+        "id": "2612749f-4c48-4e63-8b7e-82d51f23734b",
+        "nombre": "United Arab Emirates Dirham",
+        "codigo": "AED",
+        "factor": 3.6725,
+        "resumenMoneda": "United Arab Emirates Dirham - AED | 3.6725"
+    },
+    {
+        "id": "609aab17-27c0-458c-bc92-83d557f05644",
+        "nombre": "Bermudan Dollar",
+        "codigo": "BMD",
+        "factor": 1,
+        "resumenMoneda": "Bermudan Dollar - BMD | 1"
+    },
+    {
+        "id": "cc27a7c4-d599-47ae-a2e3-8690c7e5694d",
+        "nombre": "Australian Dollar",
+        "codigo": "AUD",
+        "factor": 1.5563,
+        "resumenMoneda": "Australian Dollar - AUD | 1.5563"
+    },
+    {
+        "id": "10e286ab-b7d6-437b-afef-8740a06c8413",
+        "nombre": "Uruguayan Peso",
+        "codigo": "UYU",
+        "factor": 37.7116,
+        "resumenMoneda": "Uruguayan Peso - UYU | 37.7116"
+    },
+    {
+        "id": "e6f3c03f-73aa-44b7-a547-883c48079cdb",
+        "nombre": "Bahraini Dinar",
+        "codigo": "BHD",
+        "factor": 0.376,
+        "resumenMoneda": "Bahraini Dinar - BHD | 0.376"
+    },
+    {
+        "id": "c3ca37a0-7af7-45c0-aa2d-8872a72b10a5",
+        "nombre": "CFA Franc BEAC",
+        "codigo": "XAF",
+        "factor": 606.5919,
+        "resumenMoneda": "CFA Franc BEAC - XAF | 606.5919"
+    },
+    {
+        "id": "425b3568-0b2a-48dd-bc62-8ae956db3897",
+        "nombre": "Saudi Riyal",
+        "codigo": "SAR",
+        "factor": 3.75,
+        "resumenMoneda": "Saudi Riyal - SAR | 3.75"
+    },
+    {
+        "id": "9c266092-445e-4f25-81d4-8b4f150d2cb4",
+        "nombre": "Maldivian Rufiyaa",
+        "codigo": "MVR",
+        "factor": 15.4005,
+        "resumenMoneda": "Maldivian Rufiyaa - MVR | 15.4005"
+    },
+    {
+        "id": "459a7fe0-68ec-4475-beee-8e1c4780edc1",
+        "nombre": "Barbadian Dollar",
+        "codigo": "BBD",
+        "factor": 2,
+        "resumenMoneda": "Barbadian Dollar - BBD | 2"
+    },
+    {
+        "id": "52bc281b-f155-425d-8f9a-8f9a431b655d",
+        "nombre": "Sudanese Pound",
+        "codigo": "SDG",
+        "factor": 539.4579,
+        "resumenMoneda": "Sudanese Pound - SDG | 539.4579"
+    },
+    {
+        "id": "d558d899-73e4-4d7a-9ef6-8fedeac7ac9e",
+        "nombre": "Solomon Islands Dollar",
+        "codigo": "SBD",
+        "factor": 8.4609,
+        "resumenMoneda": "Solomon Islands Dollar - SBD | 8.4609"
+    },
+    {
+        "id": "f2b4e5f4-e67d-4625-aaeb-918909ef8209",
+        "nombre": "Mozambican Metical",
+        "codigo": "MZN",
+        "factor": 63.8725,
+        "resumenMoneda": "Mozambican Metical - MZN | 63.8725"
+    },
+    {
+        "id": "a80c53a5-d3de-423c-be2a-94770abd9c9e",
+        "nombre": "Congolese Franc",
+        "codigo": "CDF",
+        "factor": 2334.7393,
+        "resumenMoneda": "Congolese Franc - CDF | 2334.7393"
+    },
+    {
+        "id": "f0d89228-99c9-4552-8165-9594487d7626",
+        "nombre": "Swiss Franc",
+        "codigo": "CHF",
+        "factor": 0.8837,
+        "resumenMoneda": "Swiss Franc - CHF | 0.8837"
+    },
+    {
+        "id": "d2449f80-fdb7-4a58-90d1-979e4993f237",
+        "nombre": "Zimbabwean Dollar",
+        "codigo": "ZWL",
+        "factor": 4571.74,
+        "resumenMoneda": "Zimbabwean Dollar - ZWL | 4571.74"
+    },
+    {
+        "id": "b5736c6a-14be-463c-8a2c-998f8e14b87a",
+        "nombre": "Burundian Franc",
+        "codigo": "BIF",
+        "factor": 2820.6985,
+        "resumenMoneda": "Burundian Franc - BIF | 2820.6985"
+    },
+    {
+        "id": "0283941e-f3cc-497b-a6f4-999a00ab41e3",
+        "nombre": "Special Drawing Rights",
+        "codigo": "XDR",
+        "factor": 0.754,
+        "resumenMoneda": "Special Drawing Rights - XDR | 0.754"
+    },
+    {
+        "id": "9b71d5fb-ffba-46e7-bcb6-99b86cd14a57",
+        "nombre": "Botswanan Pula",
+        "codigo": "BWP",
+        "factor": 13.5194,
+        "resumenMoneda": "Botswanan Pula - BWP | 13.5194"
+    },
+    {
+        "id": "7ee7cdb7-bcb9-414f-bdb5-9c1fa07cdeae",
+        "nombre": "Nicaraguan Córdoba",
+        "codigo": "NIO",
+        "factor": 36.5791,
+        "resumenMoneda": "Nicaraguan Córdoba - NIO | 36.5791"
+    },
+    {
+        "id": "033a5245-af35-455c-9972-9eb7211315cf",
+        "nombre": "Myanma Kyat",
+        "codigo": "MMK",
+        "factor": 2097.434,
+        "resumenMoneda": "Myanma Kyat - MMK | 2097.434"
+    },
+    {
+        "id": "3b4fe584-1744-4c85-8604-9f9fd8f53bb1",
+        "nombre": "Guinean Franc",
+        "codigo": "GNF",
+        "factor": 8559.901,
+        "resumenMoneda": "Guinean Franc - GNF | 8559.901"
+    },
+    {
+        "id": "8fd34aaa-0e1c-4b8b-8e46-9fbf61cf670a",
+        "nombre": "Haitian Gourde",
+        "codigo": "HTG",
+        "factor": 135.502,
+        "resumenMoneda": "Haitian Gourde - HTG | 135.502"
+    },
+    {
+        "id": "94a22ad7-655b-44fa-afae-a0f684eefc27",
+        "nombre": "Sierra Leonean Leone",
+        "codigo": "SLL",
+        "factor": 21713.111,
+        "resumenMoneda": "Sierra Leonean Leone - SLL | 21713.111"
+    },
+    {
+        "id": "6dc7e4a7-d5ad-4aac-93c6-a1767e1a4379",
+        "nombre": "Georgian Lari",
+        "codigo": "GEL",
+        "factor": 2.6261,
+        "resumenMoneda": "Georgian Lari - GEL | 2.6261"
+    },
+    {
+        "id": "835f441f-5e01-4c97-b691-a29011cd5a9d",
+        "nombre": "Zambian Kwacha",
+        "codigo": "ZMW",
+        "factor": 19.8262,
+        "resumenMoneda": "Zambian Kwacha - ZMW | 19.8262"
+    },
+    {
+        "id": "912a9a81-0e03-44d5-bf5e-a2e28611c52b",
+        "nombre": "Kyrgystani Som",
+        "codigo": "KGS",
+        "factor": 88.1723,
+        "resumenMoneda": "Kyrgystani Som - KGS | 88.1723"
+    },
+    {
+        "id": "0c78dea3-2ead-43f8-a960-a383197282ce",
+        "nombre": "Philippine Peso",
+        "codigo": "PHP",
+        "factor": 56.7186,
+        "resumenMoneda": "Philippine Peso - PHP | 56.7186"
+    },
+    {
+        "id": "b8ccfa40-cd19-42d1-a4fe-a58a8cd7f48d",
+        "nombre": "Bahamian Dollar",
+        "codigo": "BSD",
+        "factor": 1,
+        "resumenMoneda": "Bahamian Dollar - BSD | 1"
+    },
+    {
+        "id": "177d2d66-4a18-4b3a-97aa-a59befcfe1b7",
+        "nombre": "Fijian Dollar",
+        "codigo": "FJD",
+        "factor": 2.2591,
+        "resumenMoneda": "Fijian Dollar - FJD | 2.2591"
+    },
+    {
+        "id": "e197c8bc-def8-4518-b30a-a78b9341b4b1",
+        "nombre": "Japanese Yen",
+        "codigo": "JPY",
+        "factor": 146.4733,
+        "resumenMoneda": "Japanese Yen - JPY | 146.4733"
+    },
+    {
+        "id": "5f775627-2462-4d42-b843-a8a4d65354bc",
+        "nombre": "Hong Kong Dollar",
+        "codigo": "HKD",
+        "factor": 7.8461,
+        "resumenMoneda": "Hong Kong Dollar - HKD | 7.8461"
+    },
+    {
+        "id": "0f879aee-c647-4f04-ab97-aaa210a470b2",
+        "nombre": "South Korean Won",
+        "codigo": "KRW",
+        "factor": 1324.7262,
+        "resumenMoneda": "South Korean Won - KRW | 1324.7262"
+    },
+    {
+        "id": "9f1c5be0-1b95-4869-bba7-ab8efbf40765",
+        "nombre": "Cayman Islands Dollar",
+        "codigo": "KYD",
+        "factor": 0.8333,
+        "resumenMoneda": "Cayman Islands Dollar - KYD | 0.8333"
+    },
+    {
+        "id": "cc74ba8e-a14a-4aa2-87fb-b2752802e31f",
+        "nombre": "Serbian Dinar",
+        "codigo": "RSD",
+        "factor": 108.4841,
+        "resumenMoneda": "Serbian Dinar - RSD | 108.4841"
+    },
+    {
+        "id": "afb607cc-b7d5-4440-a73f-b43f056c1266",
+        "nombre": "CFP Franc",
+        "codigo": "XPF",
+        "factor": 110.3515,
+        "resumenMoneda": "CFP Franc - XPF | 110.3515"
+    },
+    {
+        "id": "48e228eb-13c9-451e-919f-b6c58febe064",
+        "nombre": "Jamaican Dollar",
+        "codigo": "JMD",
+        "factor": 154.6924,
+        "resumenMoneda": "Jamaican Dollar - JMD | 154.6924"
+    },
+    {
+        "id": "4f4173f6-3cf0-458e-a7f4-b6d8aedd53d8",
+        "nombre": "Brazilian Real",
+        "codigo": "BRL",
+        "factor": 4.8724,
+        "resumenMoneda": "Brazilian Real - BRL | 4.8724"
+    },
+    {
+        "id": "70e954d8-3b0e-469d-9199-b74bb50953db",
+        "nombre": null,
+        "codigo": "FOK",
+        "factor": 6.8989,
+        "resumenMoneda": " - FOK | 6.8989"
+    },
+    {
+        "id": "62f35eb5-cf5d-4c25-b701-ba22fe591ec0",
+        "nombre": "Panamanian Balboa",
+        "codigo": "PAB",
+        "factor": 1,
+        "resumenMoneda": "Panamanian Balboa - PAB | 1"
+    },
+    {
+        "id": "c57c6f92-3831-48db-b405-ba28440ee5c6",
+        "nombre": "Rwandan Franc",
+        "codigo": "RWF",
+        "factor": 1224.6989,
+        "resumenMoneda": "Rwandan Franc - RWF | 1224.6989"
+    },
+    {
+        "id": "229a2544-2e5f-4b77-ae59-ba77c50cc512",
+        "nombre": "Swedish Krona",
+        "codigo": "SEK",
+        "factor": 10.9924,
+        "resumenMoneda": "Swedish Krona - SEK | 10.9924"
+    },
+    {
+        "id": "5363fa26-dcdc-4cef-a830-bb224714327b",
+        "nombre": "Indonesian Rupiah",
+        "codigo": "IDR",
+        "factor": 15281.496,
+        "resumenMoneda": "Indonesian Rupiah - IDR | 15281.496"
+    },
+    {
+        "id": "586a7b8e-68d1-4e17-847a-bd9542219757",
+        "nombre": "Laotian Kip",
+        "codigo": "LAK",
+        "factor": 19419.71,
+        "resumenMoneda": "Laotian Kip - LAK | 19419.71"
+    },
+    {
+        "id": "6733e54e-1002-4ed7-88db-bf37793f129a",
+        "nombre": "Tunisian Dinar",
+        "codigo": "TND",
+        "factor": 3.1136,
+        "resumenMoneda": "Tunisian Dinar - TND | 3.1136"
+    },
+    {
+        "id": "4556c8ac-8ff6-4be5-894c-c166ed50b83e",
+        "nombre": "Sierra Leonean Leone",
+        "codigo": "SLE",
+        "factor": 21.7131,
+        "resumenMoneda": "Sierra Leonean Leone - SLE | 21.7131"
+    },
+    {
+        "id": "0baf3cd0-cd5e-4372-b976-c1ad30d18321",
+        "nombre": "Ghanaian Cedi",
+        "codigo": "GHS",
+        "factor": 11.453,
+        "resumenMoneda": "Ghanaian Cedi - GHS | 11.453"
+    },
+    {
+        "id": "88b1f342-da9d-4ac8-8332-c42874479b72",
+        "nombre": "Brunei Dollar",
+        "codigo": "BND",
+        "factor": 1.3559,
+        "resumenMoneda": "Brunei Dollar - BND | 1.3559"
+    },
+    {
+        "id": "25bf433a-587c-4326-91c2-c4bd811c8a81",
+        "nombre": "Aruban Florin",
+        "codigo": "AWG",
+        "factor": 1.79,
+        "resumenMoneda": "Aruban Florin - AWG | 1.79"
+    },
+    {
+        "id": "9cccd434-06ea-46cf-a5a9-c5f93c359a9d",
+        "nombre": "Bosnia-Herzegovina Convertible Mark",
+        "codigo": "BAM",
+        "factor": 1.8086,
+        "resumenMoneda": "Bosnia-Herzegovina Convertible Mark - BAM | 1.8086"
+    },
+    {
+        "id": "cfd3f08a-8e25-48f8-bdf4-ca265ef316bc",
+        "nombre": "Qatari Rial",
+        "codigo": "QAR",
+        "factor": 3.64,
+        "resumenMoneda": "Qatari Rial - QAR | 3.64"
+    },
+    {
+        "id": "17a89135-bd75-4374-b694-cb946e3993fd",
+        "nombre": "Gibraltar Pound",
+        "codigo": "GIP",
+        "factor": 0.7936,
+        "resumenMoneda": "Gibraltar Pound - GIP | 0.7936"
+    },
+    {
+        "id": "172e5e22-e043-47be-8582-ce4420ecf12d",
+        "nombre": "Malawian Kwacha",
+        "codigo": "MWK",
+        "factor": 1087.0364,
+        "resumenMoneda": "Malawian Kwacha - MWK | 1087.0364"
+    },
+    {
+        "id": "5a4c23f2-4dde-465e-808e-d1cfe01be489",
+        "nombre": "Iraqi Dinar",
+        "codigo": "IQD",
+        "factor": 1310.968,
+        "resumenMoneda": "Iraqi Dinar - IQD | 1310.968"
+    },
+    {
+        "id": "2d8d25af-048e-4966-a521-d3d12ad507a6",
+        "nombre": "Uzbekistan Som",
+        "codigo": "UZS",
+        "factor": 12060.486,
+        "resumenMoneda": "Uzbekistan Som - UZS | 12060.486"
+    },
+    {
+        "id": "76f669ba-1efc-41af-81b5-d3d54a8dd3c5",
+        "nombre": "Pakistani Rupee",
+        "codigo": "PKR",
+        "factor": 303.4785,
+        "resumenMoneda": "Pakistani Rupee - PKR | 303.4785"
+    },
+    {
+        "id": "e8b5de66-15dc-48a6-af34-d5436bfeec35",
+        "nombre": "Indian Rupee",
+        "codigo": "INR",
+        "factor": 82.6662,
+        "resumenMoneda": "Indian Rupee - INR | 82.6662"
+    },
+    {
+        "id": "d86b5ea1-74cd-451b-9123-d621c084bebc",
+        "nombre": "Albanian Lek",
+        "codigo": "ALL",
+        "factor": 101.7031,
+        "resumenMoneda": "Albanian Lek - ALL | 101.7031"
+    },
+    {
+        "id": "b53b4eae-4d71-4d29-92f5-d8189d6c1697",
+        "nombre": "Falkland Islands Pound",
+        "codigo": "FKP",
+        "factor": 0.7936,
+        "resumenMoneda": "Falkland Islands Pound - FKP | 0.7936"
+    },
+    {
+        "id": "238c632b-3437-41b1-9fed-d866434492c5",
+        "nombre": "Cambodian Riel",
+        "codigo": "KHR",
+        "factor": 4162.5083,
+        "resumenMoneda": "Cambodian Riel - KHR | 4162.5083"
+    },
+    {
+        "id": "f93fc29a-73c4-4a33-9974-d86dd5b566ba",
+        "nombre": "Russian Ruble",
+        "codigo": "RUB",
+        "factor": 94.889,
+        "resumenMoneda": "Russian Ruble - RUB | 94.889"
+    },
+    {
+        "id": "fdfad693-2f40-409d-bbd5-d8a8d32b8831",
+        "nombre": "Liberian Dollar",
+        "codigo": "LRD",
+        "factor": 188.5458,
+        "resumenMoneda": "Liberian Dollar - LRD | 188.5458"
+    },
+    {
+        "id": "8e0f3aac-3638-4525-be3e-da82b68ba331",
+        "nombre": "Thai Baht",
+        "codigo": "THB",
+        "factor": 35.2322,
+        "resumenMoneda": "Thai Baht - THB | 35.2322"
+    },
+    {
+        "id": "a70df0af-2631-4088-9eed-db574d011d6c",
+        "nombre": "Mexican Peso",
+        "codigo": "MXN",
+        "factor": 16.7677,
+        "resumenMoneda": "Mexican Peso - MXN | 16.7677"
+    },
+    {
+        "id": "ec9396f5-ab5a-4da1-89fd-dcb0468bfdf8",
+        "nombre": "Eritrean Nakfa",
+        "codigo": "ERN",
+        "factor": 15,
+        "resumenMoneda": "Eritrean Nakfa - ERN | 15"
+    },
+    {
+        "id": "455b0550-65b7-463a-b6fd-df34447b1c00",
+        "nombre": "Kenyan Shilling",
+        "codigo": "KES",
+        "factor": 145.3352,
+        "resumenMoneda": "Kenyan Shilling - KES | 145.3352"
+    },
+    {
+        "id": "840f179b-4ac6-4bd2-b1f5-df8ed0231229",
+        "nombre": "British Pound Sterling",
+        "codigo": "GBP",
+        "factor": 0.7936,
+        "resumenMoneda": "British Pound Sterling - GBP | 0.7936"
+    },
+    {
+        "id": "4d95261f-b0ee-4d6e-aec3-dfcfe0e66896",
+        "nombre": "Hungarian Forint",
+        "codigo": "HUF",
+        "factor": 354.2418,
+        "resumenMoneda": "Hungarian Forint - HUF | 354.2418"
+    },
+    {
+        "id": "6c14871e-57d0-40fe-ac90-e07ba8c3e365",
+        "nombre": "Mauritian Rupee",
+        "codigo": "MUR",
+        "factor": 45.6407,
+        "resumenMoneda": "Mauritian Rupee - MUR | 45.6407"
+    },
+    {
+        "id": "bd01c715-784f-4ea6-9871-e0edbd145452",
+        "nombre": "Mongolian Tugrik",
+        "codigo": "MNT",
+        "factor": 3480.735,
+        "resumenMoneda": "Mongolian Tugrik - MNT | 3480.735"
+    },
+    {
+        "id": "f7a30a35-897d-49cb-9e09-e42b09b7b02d",
+        "nombre": "Moroccan Dirham",
+        "codigo": "MAD",
+        "factor": 10.1246,
+        "resumenMoneda": "Moroccan Dirham - MAD | 10.1246"
+    },
+    {
+        "id": "5ecd9408-55c5-4e1a-a372-e6d80b90d54c",
+        "nombre": "Ukrainian Hryvnia",
+        "codigo": "UAH",
+        "factor": 36.9322,
+        "resumenMoneda": "Ukrainian Hryvnia - UAH | 36.9322"
+    },
+    {
+        "id": "592cb6f3-1557-47a4-9301-e99c913b5d7c",
+        "nombre": "Armenian Dram",
+        "codigo": "AMD",
+        "factor": 386.0596,
+        "resumenMoneda": "Armenian Dram - AMD | 386.0596"
+    },
+    {
+        "id": "fd933c99-31f3-4464-9d52-eb1bffa32fa9",
+        "nombre": "Lebanese Pound",
+        "codigo": "LBP",
+        "factor": 15000,
+        "resumenMoneda": "Lebanese Pound - LBP | 15000"
+    },
+    {
+        "id": "001d2efd-89be-40f7-8ba3-eb4b5b39c8b2",
+        "nombre": "Ethiopian Birr",
+        "codigo": "ETB",
+        "factor": 55.0607,
+        "resumenMoneda": "Ethiopian Birr - ETB | 55.0607"
+    },
+    {
+        "id": "9a59f309-f2c1-45d5-b030-ed126afff99e",
+        "nombre": null,
+        "codigo": "TVD",
+        "factor": 1.5563,
+        "resumenMoneda": " - TVD | 1.5563"
+    },
+    {
+        "id": "c96b5d99-ee00-4b41-a518-efc6bac429a8",
+        "nombre": "Cuban Peso",
+        "codigo": "CUP",
+        "factor": 24,
+        "resumenMoneda": "Cuban Peso - CUP | 24"
+    },
+    {
+        "id": "7adbe337-e22b-453a-a363-efe7bba9f68d",
+        "nombre": "Papua New Guinean Kina",
+        "codigo": "PGK",
+        "factor": 3.611,
+        "resumenMoneda": "Papua New Guinean Kina - PGK | 3.611"
+    },
+    {
+        "id": "12af6d89-2727-43cc-9c28-f06e5a5ad64f",
+        "nombre": "Syrian Pound",
+        "codigo": "SYP",
+        "factor": 12919.627,
+        "resumenMoneda": "Syrian Pound - SYP | 12919.627"
+    },
+    {
+        "id": "dc206576-7ebd-4590-b919-f0762333147a",
+        "nombre": "Guatemalan Quetzal",
+        "codigo": "GTQ",
+        "factor": 7.8543,
+        "resumenMoneda": "Guatemalan Quetzal - GTQ | 7.8543"
+    },
+    {
+        "id": "4e44add1-9956-47b1-9c22-f4920b6b9cf1",
+        "nombre": "Tongan Paʻanga",
+        "codigo": "TOP",
+        "factor": 2.3511,
+        "resumenMoneda": "Tongan Paʻanga - TOP | 2.3511"
+    },
+    {
+        "id": "9ef9aa69-0b38-4c11-8715-f5a5c9bba424",
+        "nombre": "Saint Helena Pound",
+        "codigo": "SHP",
+        "factor": 0.7936,
+        "resumenMoneda": "Saint Helena Pound - SHP | 0.7936"
+    },
+    {
+        "id": "a7672dd1-776d-4ef6-88a6-f7847dce7251",
+        "nombre": "Seychellois Rupee",
+        "codigo": "SCR",
+        "factor": 13.4648,
+        "resumenMoneda": "Seychellois Rupee - SCR | 13.4648"
+    },
+    {
+        "id": "c7a51de1-38ce-4031-83db-f85876b40642",
+        "nombre": "Egyptian Pound",
+        "codigo": "EGP",
+        "factor": 30.9,
+        "resumenMoneda": "Egyptian Pound - EGP | 30.9"
+    },
+    {
+        "id": "62a1315a-617c-4a4d-b16e-fb04a9e249b6",
+        "nombre": "Paraguayan Guarani",
+        "codigo": "PYG",
+        "factor": 7312.188,
+        "resumenMoneda": "Paraguayan Guarani - PYG | 7312.188"
+    },
+    {
+        "id": "bad7ed36-4967-485b-964e-fc535c6889d3",
+        "nombre": "South Sudanese Pound",
+        "codigo": "SSP",
+        "factor": 1005.0576,
+        "resumenMoneda": "South Sudanese Pound - SSP | 1005.0576"
+    },
+    {
+        "id": "e1a1415f-c022-44b8-91c6-fceb623b5ee5",
+        "nombre": "Samoan Tala",
+        "codigo": "WST",
+        "factor": 2.6943,
+        "resumenMoneda": "Samoan Tala - WST | 2.6943"
+    },
+    {
+        "id": "021fa667-5f1a-4259-9e00-fe42a8a97036",
+        "nombre": "Croatian Kuna",
+        "codigo": "HRK",
+        "factor": 6.9675,
+        "resumenMoneda": "Croatian Kuna - HRK | 6.9675"
+    }
+]

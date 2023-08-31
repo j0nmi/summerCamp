@@ -1,0 +1,30 @@
+
+<div class='card'>
+  <div class='card-header'>
+    {{pageTitle}}
+  </div>
+  <div class='card-body'>
+    <div class='row'>
+      <div class='col-md-4'>
+        <input placeholder="Filtro Monedas" type='text' [(ngModel)]='listFilter' />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row" *ngIf='monedas.length'>
+              <div class="col-md-3 mb-4" *ngFor='let moneda of filteredMonedas'>
+                  <div class="card h-100 rounded shadow">
+                      <div class="card-body text-center">
+                          <h5 class="card-title">{{ moneda.nombre}}</h5>
+                          <img src="https://www.countryflagicons.com/SHINY/32/{{ moneda.codigo.substring(0, 2)}}.png" class="mb-1">
+                          <h5 class="card-title">{{ moneda.codigo}}</h5>
+                          <p class="card-text">{{ moneda.factor | currency:'USD':'symbol':'1.2-4' }}</p>
+                          <!-- <a asp-action="Edit" class="btn btn-outline-secondary btn-rounded btn-floating shadow">Editar</a>
+                          <a asp-action="Delete" class="btn btn-outline-danger btn-rounded btn-floating shadow">Borrar</a> -->
+                      </div>
+                  </div>
+              </div>
+      </div>
+    </div>
+    </div>
+</div>

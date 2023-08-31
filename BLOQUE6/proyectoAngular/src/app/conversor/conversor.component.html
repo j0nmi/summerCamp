@@ -1,0 +1,68 @@
+
+<div class='card'>
+  <div class='card-header'>
+    {{pageTitle}}
+  </div>
+  <div class="card shadow p-3 mb-5 bg-white rounded">
+    <form class="card-body" [action]="realizarConversion()">
+        <div class="row justify-content-md-center">
+            <div class="row mb-3 justify-content-center align-items-center">
+                <div class="col-md-auto">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" style="white-space: pre;" for="inputGroupSelect01">Moneda Origen  
+                                    <img id="banderaOrigen" src="{{ ponerOrigen }}"></label>
+                            </div>
+                            <select [(ngModel)]="selecOrigen" id="selectOrigen" name="selectOrigen" class="custom-select" (change)="cambiarBanderaOrigen()" autocomplete="on" required>
+                                <option selected disabled value="">Selecionar Moneda</option>
+                                <option [ngValue] ="moneda.codigo" *ngFor='let moneda of monedas'>{{ moneda.codigo }} - {{ moneda.nombre }}</option>                     
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="d-grid gap-1 col-md-auto p-0 mt-0">
+                        <button class="btn btn-outline-primary btn-rounded btn-floating shadow" (click)="swapMonedas()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" style="white-space: pre;" for="inputGroupSelect01">Moneda Destino  
+                                    <img id="banderaDestino" src="{{ ponerDestino }}"></label>
+                            </div>
+                            <select [(ngModel)]="selecDestino" id="selectDestino" name="selectDestino" class="custom-select" (change)="cambiarBanderaDestino();" autocomplete="on" required>
+                                <option selected disabled value="">Selecionar Moneda</option>
+                                <option [ngValue] ="moneda.codigo" *ngFor='let moneda of monedas'>{{ moneda.codigo }} - {{ moneda.nombre }}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-3">
+                <div class="form-group">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Importe</span>
+                        </div>
+                        <input id="cantidad" [(ngModel)]="cantidad" name="cantidad" type="number" class="form-control" min="0" required placeholder="Importe Cantidad">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+            <button class="btn btn-outline-primary btn-rounded btn-floating shadow" type="submit">Convertir</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+            {{ resFormateado }}
+        </div>
+    </form>
+
+</div>

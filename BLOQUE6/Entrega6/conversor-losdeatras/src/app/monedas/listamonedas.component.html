@@ -1,0 +1,38 @@
+
+<div class='card-monedas '>
+  <div class="container mt-5">
+    <h1 class="display-4 text-uppercase text-center">LISTA DE MONEDAS</h1>
+    <div class="input-group mb-3 justify-content-center mt-5">
+      <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+      </svg></span>
+      <input placeholder="Introduce el prefijo de la moneda a buscar" type='text' [(ngModel)]='listFilter' class="form-control " />
+    </div>
+  </div>
+
+  <div class='card-body'>
+    <div class='row'>
+      <div class='col-md-2'>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row" *ngIf='monedas.length'>
+        <div class="col-md-3 mb-4 hover-scale" *ngFor='let moneda of filteredMonedas'>
+          <div class="card h-100 rounded shadow">
+            <div class="card-body text-center">
+              <h5 class="card-title">{{ moneda.nombre}}</h5>
+              <img src="https://www.countryflagicons.com/SHINY/32/{{ moneda.codigo.substring(0, 2)}}.png" class="mb-1">
+              <h5 class="card-title">{{ moneda.codigo}}</h5>
+              <p class="card-text">{{ moneda.factor | currency:'USD':'symbol':'1.2-4' }}</p>
+              <!-- <a asp-action="Edit" class="btn btn-outline-secondary btn-rounded btn-floating shadow">Editar</a>
+                          <a asp-action="Delete" class="btn btn-outline-danger btn-rounded btn-floating shadow">Borrar</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <pm-boton-top></pm-boton-top>
+  </div>
+</div>

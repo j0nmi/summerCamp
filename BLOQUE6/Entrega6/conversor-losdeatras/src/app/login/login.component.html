@@ -1,0 +1,45 @@
+<div class="d-flex h-100 text-center">
+  <div class="cover-container d-flex w-100 h-200 p-5 mx-auto flex-column">
+    <main class="px-4">
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <img src="../../assets/images/login2.png" alt="Money" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-right">
+            <main class="form-signin w-100 m-auto">
+              <form #f="ngForm" (ngSubmit)="login(f)">
+                <h1 class="display-6 text-uppercase mb-3">INICIO SESION</h1>
+
+                <div class="form-floating mb-3">
+                  <input ngModel name="user" type="text" class="form-control" id="floatingInput" placeholder="Usuario">
+                  <label for="floatingInput">Usuario</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input ngModel name="userPassword" type="password" class="form-control" id="floatingPassword"
+                    placeholder="Password">
+                  <label for="floatingPassword">Contraseña</label>
+                </div>
+                <button class="btn btn-outline-success px-3 me-3" type="submit"><i><svg
+                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                      <path fill-rule="evenodd"
+                        d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                    </svg></i> Iniciar Sesion</button>
+                <div class="text-center mt-3 ">
+                  <p>¿No eres miembro? <a [routerLink]="['/registro']" style=" color: #7ac897;">únete a nosotros</a></p>
+                </div>
+              </form>
+              <div class="alert alert-danger" role="alert" *ngIf="error">
+                Creedenciales incorrectos, vuelva a intentarlo.
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>

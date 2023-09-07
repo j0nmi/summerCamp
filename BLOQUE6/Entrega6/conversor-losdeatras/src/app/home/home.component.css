@@ -1,0 +1,24 @@
+/* Efecto de zoom al pasar el cursor */
+.zoom-card {
+    transition: transform 0.6s ease;
+  }
+
+  /* Al retirar el cursor, la tarjeta vuelve a su tamaño original */
+  .zoom-card:hover {
+    transform: scale(1.05);
+  }
+
+  /* Estilo personalizado para alinear texto e imágenes */
+  .card-body {
+    text-align: center;
+  }
+
+  .card-img-top {
+    margin: 0 auto; /* Centra horizontalmente las imágenes */
+    max-width: 80%; /* Reduce el tamaño de las imágenes */
+    height: auto;
+  }
+
+  .card{
+    border-radius:7%;
+  }

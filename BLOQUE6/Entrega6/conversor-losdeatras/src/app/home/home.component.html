@@ -1,0 +1,70 @@
+<div class="d-flex h-100 text-center">
+  <div class="cover-container d-flex w-100 h-200 p-5 mx-auto flex-column">
+    <main class="px-4">
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <div>
+              <h1 class="display-1 text-uppercase">CONVERSOR</h1>
+              <h1 class="display-1 text-uppercase">LOSDATRAS</h1>
+              <p class="lead">Conversor de divisas #1</p>
+              <a *ngIf="!datos.globalData.logeado" [routerLink]="['/registro']"
+                class="btn btn-outline-secondary px-3 me-3 "><i><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
+                    <path
+                      d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                    <path fill-rule="evenodd"
+                      d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z" />
+                  </svg></i> Registrarse</a>
+
+            </div>
+          </div>
+          <div class="col-md-6 text-right">
+            <img src="../../assets/images/money.png" alt="Money" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<div class="bg-light p-2">
+  <div class="container mt-5 mb-3">
+    <div class="row">
+      <h2 class="display-4 text-uppercase text-center">CARACTERÍSTICAS</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card text-white zoom-card" style="background-color: #7ac897; border: 0px;">
+          <img src="../../assets/images/transfer.png" class="card-img-top img-fluid" alt="Conversor">
+          <div class="card-body text-center">
+            <h5 class="card-title display-6">CONVERSOR</h5>
+            <p class="card-text p-3">Convierte monedas de forma rápida y conveniente, en cualquier momento y lugar que
+              desees.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-white zoom-card" style="background-color: #7ac897; border: 0px;">
+          <img src="../../assets/images/planeta.png" class="card-img-top img-fluid" alt="Imagen 2">
+          <div class="card-body text-center">
+            <h5 class="card-title display-6">DIVISAS</h5>
+            <p class="card-text p-3">
+              100+ monedas disponibles con datos actualizados para conversiones precisas y actuales</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-white zoom-card" style="background-color: #7ac897; border: 0px;">
+          <img src="../../assets/images/historial.png" class="card-img-top img-fluid" alt="Imagen 3">
+          <div class="card-body text-center">
+            <h5 class="card-title display-6">HISTORIAL</h5>
+            <p class="card-text p-3">Guarda un registro de tus conversiones para acceder a ellas en detalle más
+              adelante. No te pierdas nada.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

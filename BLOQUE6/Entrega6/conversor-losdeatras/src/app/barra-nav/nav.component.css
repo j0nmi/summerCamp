@@ -1,0 +1,16 @@
+/* Agrega esta regla CSS a tu archivo de estilos */
+.nav-link {
+    transition: transform 0.5s ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}

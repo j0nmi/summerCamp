@@ -1,0 +1,20 @@
+.fixed-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  align-items: center; 
+}
+
+.boton-top {
+  font-size: 24px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; 
+  padding: 10px; 
+  transition: background-color 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}

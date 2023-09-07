@@ -1,0 +1,85 @@
+<div class="d-flex h-100 text-center">
+  <div class="cover-container d-flex w-100 h-200 p-5 mx-auto flex-column">
+    <main class="px-4">
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <img src="../../assets/images/register.png" alt="Money" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-right">
+
+            <main class="form-signin w-100 m-auto">
+              <form [formGroup]="myForm" (ngSubmit)="rellenarRegistro(myForm)" novalidate>
+                <h1 class="display-6 text-uppercase mb-3">REGISTRO</h1>
+                <div class="form-floating mb-3">
+                  <input formControlName="user" type="text" class="form-control" id="floatingInput" name="user"
+                    placeholder="Nombre de usuario" required maxlength="20">
+                  <label for="floatingInput">Nombre de usuario</label>
+                </div>
+                <div class="text-danger" *ngIf="myForm.get('user')?.errors && myForm.get('user')?.dirty">
+                  <p *ngIf="myForm.get('user')?.hasError('required')"><small>Campo requerido</small></p>
+                  <p *ngIf="myForm.get('user')?.hasError('minlength')"><small>Mas de 5 caracteres</small></p>
+                </div>
+                <div class="form-floating mb-3">
+                  <input formControlName="userEmail" type="email" class="form-control" name="userEmail"
+                    placeholder="Correo electrónico">
+                  <label for="floatingInput">Email</label>
+                </div>
+                <div class="text-danger" *ngIf="myForm.get('userEmail')?.errors && myForm.get('userEmail')?.dirty">
+                  <p *ngIf="myForm.get('userEmail')?.hasError('required')"><small>Campo requerido</small></p>
+                  <p *ngIf="myForm.get('userEmail')?.hasError('pattern')"><small>No es un tipo de correo
+                      electrónico</small></p>
+                </div>
+                <div class="form-floating mb-3">
+                  <input formControlName="userPassword" type="password" class="form-control" name="userPassword"
+                    placeholder="Contraseña">
+                  <label for="floatingInput">Contraseña</label>
+                </div>
+                <div class="text-danger"
+                  *ngIf="myForm.get('userPassword')?.errors && myForm.get('userPassword')?.dirty">
+                  <p *ngIf="myForm.get('userPassword')?.hasError('required')"><small>Campo requerido</small></p>
+                  <p *ngIf="myForm.get('userPassword')?.hasError('pattern')"><small>Tamaño mínimo 6 caracteres:
+                      Mayuscula / Minuscula / Symbolo / Número</small></p>
+                </div>
+                <div class="form-floating mb-3">
+                  <select formControlName="pais" class="form-control" id="exampleFormControlSelect1">
+                    <option name="pais" *ngFor='let pais of paises' [value]="pais.id">{{ pais.nombre }}</option>
+                    <option selected disabled>Seleccione pais</option>
+                  </select>
+                  <label for="floatingInput">Pais</label>
+                </div>
+                <div class="text-danger" *ngIf="myForm.get('pais')?.errors && myForm.get('pais')?.dirty">
+                  <p *ngIf="myForm.get('pais')?.hasError('required')"><small>Campo requerido</small></p>
+                </div>
+                <div class="form-floating mb-3">
+
+                  <input formControlName="nacimiento" name="dateNacimiento" type="date" class="form-control"
+                    placeholder="Fecha nacimiento">
+                  <label for="floatingInput">Fecha nacimiento</label>
+                </div>
+                <div class="text-danger" *ngIf="myForm.get('nacimiento')?.errors && myForm.get('nacimiento')?.dirty">
+                  <p *ngIf="myForm.get('nacimiento')?.hasError('required')"><small>Campo requerido</small></p>
+                  <p *ngIf="myForm.get('nacimiento')?.hasError('pattern')"><small>Formato incorreto</small></p>
+                  <p *ngIf="myForm.get('nacimiento')?.hasError('max')"><small>Tienes que tener mas de 16 años para
+                      registrarte.</small></p>
+                </div>
+                <button class="btn btn-outline-secondary px-3 me-3 w-100" type="submit" [disabled]="myForm.invalid"><i><svg
+                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-person-plus" viewBox="0 0 16 16">
+                      <path
+                        d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                      <path fill-rule="evenodd"
+                        d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z" />
+                    </svg></i> Registrarse</button>
+                <div class="text-center mt-3 ">
+                  <p>¿Ya eres miembro? <a [routerLink]="['/login']" style=" color: #7ac897;">inicia sesión</a></p>
+                </div>
+              </form>
+            </main>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>

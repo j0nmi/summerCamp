@@ -1,0 +1,106 @@
+<div class="row mx-3">
+    <!-- Columna Izquierda: Conversor -->
+    <div class="col-md-7">
+        <div class="shadow  rounded d-flex align-items-center justify-content-center card text-center mx-auto">
+            <!-- Contenido del Conversor -->
+            <div class="container mb-3 p-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1 class="display-4 text-uppercase text-left">CONVERSOR</h1>
+                        <p class="lead text-left">Transforma el mundo en tu moneda con un solo clic: convierte divisas y
+                            haz que las fronteras financieras desaparezcan.</p>
+                        <p class="lead text-left">Descubre la simplicidad de las transacciones internacionales.</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="../../assets/images/conversor.png" alt="Money" class="img-fluid"
+                            style="max-width: 60%; height: auto;">
+                    </div>
+                </div>
+            </div>
+            <form class="card-body" asp-action="Conversor" (ngSubmit)="convertirMoneda()">
+                <div class="row justify-content-md-center mb-3">
+                    <div class="row mb-3 justify-content-center align-items-center">
+                        <div class="col-md-auto">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <label class="input-group-text" style="white-space: pre;"
+                                        for="inputGroupSelect01">Origen · <img id="banderaOrigen"
+                                            src="{{ ponerOrigen }}"></label>
+                                    <select [(ngModel)]="selecOrigen" id="selectOrigen" name="selectOrigen"
+                                        class="custom-select" (change)="cambiarBanderaOrigen()" autocomplete="on"
+                                        required>
+                                        <option selected disabled value="">Seleccionar Moneda</option>
+                                        <option [ngValue]="moneda.codigo" *ngFor='let moneda of monedas'>{{
+                                            moneda.codigo }} - {{ moneda.nombre }}</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3 mt-3 justify-content-center align-items-center">
+                            <div class="col-md-auto">
+                                <div class="d-grid gap-1 col-md-auto p-0 mt-0">
+                                    <a class="btn btn-outline-success btn-rounded btn-floating shadow"
+                                        (click)="swapMonedas()">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-auto">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <label class="input-group-text" style="white-space: pre;"
+                                        for="inputGroupSelect01">Destino · <img id="banderaDestino"
+                                            src="{{ ponerDestino }}"></label>
+                                    <select [(ngModel)]="selecDestino" id="selectDestino" name="selectDestino"
+                                        class="custom-select" (change)="cambiarBanderaDestino();" autocomplete="on"
+                                        required>
+                                        <option selected disabled value="">Seleccionar Moneda</option>
+                                        <option [ngValue]="moneda.codigo" *ngFor='let moneda of monedas'>{{
+                                            moneda.codigo }} - {{ moneda.nombre }}</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-3">
+                        <div class="form-group">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Importe</span>
+                                </div>
+                                <input [(ngModel)]="importe" id="cantidad" name="importe" type="number"
+                                    class="form-control" placeholder="Importe Cantidad"
+                                    onKeyPress="if(this.value.length==9) return false;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 col-3 mb-3 mx-auto">
+                    <button class="btn btn-outline-success btn-rounded btn-floating shadow"
+                        type="submit">Convertir</button>
+                </div>
+                <div [(ngModel)]="resultado" name="resultado" class="alert alert-success gap-2 col-4 mx-auto"
+                    *ngIf='resFormateado'>
+                    <div>Resultado: {{ resFormateado | number:'1.2-4' }}</div>
+                </div>
+                <div [(ngModel)]="mensaje" name="mensaje" class="alert alert-danger gap-2 col-6 mx-auto"
+                    *ngIf='mensaje'>
+                    <div>{{ mensaje }}</div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <!-- Columna Derecha: Datos Históricos -->
+    <div class="col-md-5">
+        <div class="shadow p-3 mb-5 rounded d-flex  card text-center ">
+            <!-- Contenido de los Datos Históricos -->
+            <pm-historial [historial]="historial" (cambio)="cargarLista(true)"></pm-historial>
+        </div>
+    </div>
+</div>

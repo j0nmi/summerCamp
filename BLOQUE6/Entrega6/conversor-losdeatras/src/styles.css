@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+div.card-header {
+ font-size: large;
+}
+
+div.card {
+  margin-top: 10px
+}
+
+.table {
+  margin-top: 10px
+}
+
+
+.navbar-nav {
+  
+  display: flex;  
+  float: none !important;
+  margin: auto !important;
+ 
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 10px 10px;
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.copy-right-sec{
+  padding: 1.8rem;
+    
+    color: #000;
+    text-align: center;
+}
+.copy-right-sec a{
+  
+    font-weight: 500;
+}
+
+::selection{
+  color: #7ac987;
+}
+.hover-scale {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05); /* Aumentar el tamaño al 105% */
+}

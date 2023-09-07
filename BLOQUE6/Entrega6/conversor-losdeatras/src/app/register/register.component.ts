@@ -32,7 +32,7 @@ export class Register implements OnInit, OnDestroy{
   constructor(private paisesLista: PaisService, private registroService: RegistroService, public fb: FormBuilder, public router: Router) {
     this.myForm = this.fb.group({
       pais: ['', [Validators.required]],
-      nacimiento: ['', [Validators.required, Validators.max(new Date(new Date().getFullYear() - 16).getTime())]],
+      nacimiento: ['', [Validators.required, Validators.max(new Date(new Date().getFullYear() - 16).getTime()), Validators.min(new Date(new Date().getFullYear() - 150).getTime())]],
       userEmail: ['', [Validators.required, Validators.pattern('^(?:(?!.*?[.]{2})[a-zA-Z0-9](?:[a-zA-Z0-9.+!%-]{1,64}|)|\"[a-zA-Z0-9.+!% -]{1,64}\")@[a-zA-Z0-9][a-zA-Z0-9.-]+(.[a-z]{2,}|.[0-9]{1,})$')]],
       user: ['', [Validators.required, Validators.minLength(5)]],
       userPassword: ['', [Validators.required, Validators.pattern('(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&].{6,}')]],

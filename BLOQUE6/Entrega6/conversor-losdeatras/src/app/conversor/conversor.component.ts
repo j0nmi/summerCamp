@@ -76,8 +76,6 @@ export class ConversorMoneda implements OnInit, OnDestroy{
       option.style.display = option.value === curValue ? 'none' : 'block';
     }
     selectDestino.options.selectedIndex = 0;
-
-    this.cambiarBanderaDestino();
   }
 
   cambiarBanderaDestino(): void {

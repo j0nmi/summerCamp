@@ -61,8 +61,7 @@
                 <div class="text-danger" *ngIf="myForm.get('nacimiento')?.errors && myForm.get('nacimiento')?.dirty">
                   <p *ngIf="myForm.get('nacimiento')?.hasError('required')"><small>Campo requerido</small></p>
                   <p *ngIf="myForm.get('nacimiento')?.hasError('pattern')"><small>Formato incorreto</small></p>
-                  <p *ngIf="myForm.get('nacimiento')?.hasError('max')"><small>Tienes que tener mas de 16 años para
-                      registrarte.</small></p>
+                  <p *ngIf="myForm.get('nacimiento')?.hasError('min')"><small>No puedes tener mas de 150 años, estás muerto.</small></p>
                 </div>
                 <button class="btn btn-outline-secondary px-3 me-3 w-100" type="submit" [disabled]="myForm.invalid"><i><svg
                       xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
